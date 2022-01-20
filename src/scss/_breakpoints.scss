@@ -1,0 +1,42 @@
+@mixin xs-only() {
+	@include media-breakpoint-only(xs) {
+		@content;
+	}
+}
+@mixin sm() {
+	@include media-breakpoint-up(sm) {
+		@content;
+	}
+}
+@mixin md() {
+	@include media-breakpoint-up(md) {
+		@content;
+	}
+}
+@mixin lg() {
+	@include media-breakpoint-up(lg) {
+		@content;
+	}
+}
+
+@mixin xl() {
+	@include media-breakpoint-up(xl) {
+		@content;
+	}
+}
+
+@mixin breakpoint($screen-min-length) {
+	@media (min-width: $screen-min-length) {
+		@content;
+	}
+}
+
+@mixin ieFix() {
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+		@content;
+	}
+}
+
+@mixin landscape() {
+	@media screen and (max-width: 767px) and (orientation:landscape) { @content; }
+}

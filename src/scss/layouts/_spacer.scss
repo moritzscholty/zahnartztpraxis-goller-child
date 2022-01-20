@@ -1,0 +1,28 @@
+@mixin spacerBuilder ($type: padding) {
+	@each $spacerDirection,$spacerDirectionLabel in $elsemediaSpacerDirections {
+		&#{$spacerDirection} {
+			@each $spacerAttribute,$spacerAttributeValue in $elsemediaSpacer {
+				&-#{$spacerAttribute} {
+					@each $spacerBreakPoint, $spacerBreakPointFontSize in $spacerAttributeValue {
+						@if ($spacerBreakPoint == xs) {
+							#{$type}-#{$spacerDirectionLabel}: #{$spacerBreakPointFontSize};
+						} @else {
+							@include media-breakpoint-up($spacerBreakPoint) {
+								#{$type}-#{$spacerDirectionLabel}: #{$spacerBreakPointFontSize};
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.spacer {
+	&-p {
+		@include spacerBuilder;
+	}
+	&-m {
+		@include spacerBuilder(margin);
+	}
+}

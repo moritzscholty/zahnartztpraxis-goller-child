@@ -1,0 +1,113 @@
+.bg-light-dark {
+	background: $light-dark;
+	color: $white;
+
+	.btn-primary {
+		&:hover {
+			background: $white;
+			color: $primary;
+		}
+	}
+}
+
+.mirror-image {
+	position: relative;
+	max-width: 40%;
+	display: inline-block;
+	@include media-breakpoint-up(xl) {
+		max-width:305px;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	&__mirror {
+		position: absolute;
+		bottom:-100%;
+		left:0;
+		transform: scaleY(-1);
+		-moz-transform: scaleY(-1);
+		-o-transform: scaleY(-1);
+		-webkit-transform: scaleY(-1);
+		filter: FlipV;
+		-ms-filter: "FlipV";
+		&:before {
+			content:'';
+			bottom:0;
+			left:0;
+			height: 8px;
+			width: 100%;
+			position: absolute;
+			z-index: 2;
+			background: linear-gradient(to bottom, rgba($dark,0) 0%, rgba($dark,1) 100%);
+		}
+		&:after {
+			content:'';
+			top:-1%;
+			left:0;
+			height: 101%;
+			width: 100%;
+			position: absolute;
+			z-index: 3;
+			background: rgb(112,112,112);
+			background: linear-gradient(0deg,rgba($light-dark,0.2) 0%, rgba($light-dark,0.7) 25%, rgba($light-dark,0.9) 40%, rgba($light-dark,1) 60%);
+		}
+	}
+	+ .mirror-image {
+		transform: translate3d(24px, 48px, 0);
+		@include media-breakpoint-up(md) {
+			transform: translate3d(24px, 72px, 0);
+		}
+		@include media-breakpoint-up(lg) {
+			transform: translate3d(24px, 80px, 0);
+		}
+		@include media-breakpoint-up(xl) {
+			transform: translate3d(24px, 80px, 0);
+		}
+	}
+}
+
+.elsemedia-bg-section {
+	position: relative;
+	&__mirror-images {
+		@extend .spacer-mb-156;
+		.mirror-image {
+		}
+	}
+	&--type-1 {
+		min-height: 100vh;
+		display: flex;
+		width: 100%;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+
+		@media (hover: none) and (pointer: coarse) {
+			background-attachment: unset;
+		}
+	}
+	&--type-2 {
+		overflow: hidden;
+		&:before {
+			content:'';
+			background: $white;
+			height: 80px;
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+
+			@include media-breakpoint-up(md) {
+				height: 96px;
+			}
+			@include media-breakpoint-up(lg) {
+				height: 128px;
+			}
+			@include media-breakpoint-up(xl) {
+				height: 142px;
+			}
+		}
+	}
+}
+
+

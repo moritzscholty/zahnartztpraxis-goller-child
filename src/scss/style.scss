@@ -1,0 +1,19 @@
+// Author
+@import "author";
+
+// Variables
+@import "variables";
+
+// Libs
+@import "../../lib/bootstrap/bootstrap";
+@import "../../lib/bootscore/bootscore";
+
+// Partials
+@import "mixins";
+@import "breakpoints";
+
+// Theme
+@import "theme";
+
+// Custom Blocks
+@import "../../blocks/lazyblock-headvisual/block";

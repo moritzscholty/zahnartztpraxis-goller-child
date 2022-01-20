@@ -1,0 +1,68 @@
+
+// MIXIN FOR SPACER
+
+@mixin spacerBuilder ($type: padding) {
+	@each $spacerDirection,$spacerDirectionLabel in $elsemediaSpacerDirections {
+		&#{$spacerDirection} {
+			@each $spacerAttribute,$spacerAttributeValue in $elsemediaSpacer {
+				&-#{$spacerAttribute} {
+					@each $spacerBreakPoint, $spacerBreakPointFontSize in $spacerAttributeValue {
+						@if ($spacerBreakPoint == xs) {
+							#{$type}-#{$spacerDirectionLabel}: #{$spacerBreakPointFontSize};
+						} @else {
+							@include media-breakpoint-up($spacerBreakPoint) {
+								#{$type}-#{$spacerDirectionLabel}: #{$spacerBreakPointFontSize};
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.spacer {
+	&-p {
+		@include spacerBuilder;
+	}
+	&-m {
+		@include spacerBuilder(margin);
+	}
+}
+
+
+// MIXIN FOR TEXT
+
+.text {
+	@each $textSize, $textSizeAttributes in $elsemediaTextSizes {
+		&-#{$textSize} {
+			@each $textSizeAttribute,$textSizeAttributeValue in $textSizeAttributes {
+				@if($textSizeAttribute == "sizes") {
+					@each $textSizeBreakPoint, $textSizeBreakPointFontSize in $textSizeAttributeValue {
+						@if ($textSizeBreakPoint == xs) {
+							font-size: #{$textSizeBreakPointFontSize};
+						} @else {
+							@include media-breakpoint-up($textSizeBreakPoint) {
+								font-size: #{$textSizeBreakPointFontSize};
+							}
+						}
+					}
+				} @else {
+
+					@each $genaralStyleAttribute, $genaralStyleValue in $textSizeAttributeValue {
+						#{$genaralStyleAttribute}:#{$genaralStyleValue};
+					}
+				}
+			}
+
+			@each $elsemediaTextFormat, $textStyles in $elsemediaTextFormats {
+				&-#{$elsemediaTextFormat} {
+					@extend .text-#{$textSize};
+					@each $textStyleAttribute, $textStyleValue in $textStyles {
+						#{$textStyleAttribute}:#{$textStyleValue};
+					}
+				}
+			}
+		}
+	}
+}

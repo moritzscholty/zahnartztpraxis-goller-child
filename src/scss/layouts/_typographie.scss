@@ -1,0 +1,25 @@
+p a {
+	transition: $hover-transition;
+	border-bottom: 3px solid $primary;
+	color:$primary;
+	&:hover {
+		text-decoration: none;
+		color: $black;
+	}
+}
+
+.btn-primary {
+	@extend .text-18-bold;
+	background: $primary;
+	color: $white;
+	border-radius: 0;
+	@extend .spacer-pt-12;
+	@extend .spacer-pb-12;
+	@extend .spacer-pl-16;
+	@extend .spacer-pr-16;
+	transition: $hover-transition;
+	&:hover {
+		background: $dark;
+		$color: $white;
+	}
+}

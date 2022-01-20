@@ -1,0 +1,17 @@
+.elsemedia-seperator {
+	width: 100%;
+	border-top: 1px solid $gray-border;
+	overflow: hidden;
+	position: relative;
+	&:after {
+		content:'';
+		width:100%;
+		background: rgb(112,112,112);
+		background: radial-gradient(rgba(112,112,112,0.18253851540616246) 0%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%) bottom center;
+		height: 100%;
+		position: absolute;
+		bottom:0;
+		transform: translateY(-50%);
+		left: 0;
+	}
+}

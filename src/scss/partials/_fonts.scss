@@ -1,0 +1,71 @@
+$fontPath: "assets/fonts";
+
+@font-face {
+	font-family: "BentonSans";
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Medium_unobfuscated_6jLDfyG_g5erfYm.eot");
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Medium_unobfuscated_6jLDfyG_g5erfYm.eot#iefix") format("embedded-opentype"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Medium_unobfuscated_6jLDfyG_g5erfYm.woff2") format("woff2"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Medium_unobfuscated_6jLDfyG_g5erfYm.woff") format("woff");
+
+}
+
+
+@font-face {
+	font-family: "BentonSans";
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Black_unobfuscated_vRMKyQ7_sX9drsR.eot");
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Black_unobfuscated_vRMKyQ7_sX9drsR.eot#iefix") format("embedded-opentype"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Black_unobfuscated_vRMKyQ7_sX9drsR.woff2") format("woff2"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Black_unobfuscated_vRMKyQ7_sX9drsR.woff") format("woff");
+
+}
+
+
+
+@font-face {
+	font-family: "BentonSans";
+	font-display: swap;
+	font-weight: 100;
+	font-style: normal;
+
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Book_unobfuscated_ZuN0sbR_cFRv9ZX.eot");
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Book_unobfuscated_ZuN0sbR_cFRv9ZX.eot#iefix") format("embedded-opentype"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Book_unobfuscated_ZuN0sbR_cFRv9ZX.woff2") format("woff2"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Book_unobfuscated_ZuN0sbR_cFRv9ZX.woff") format("woff");
+
+}
+
+
+@font-face {
+	font-family: "BentonSans";
+	font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Light_unobfuscated_BhLZmh9_m8DQDvK.eot");
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Light_unobfuscated_BhLZmh9_m8DQDvK.eot#iefix") format("embedded-opentype"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Light_unobfuscated_BhLZmh9_m8DQDvK.woff2") format("woff2"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Light_unobfuscated_BhLZmh9_m8DQDvK.woff") format("woff");
+
+}
+
+
+@font-face {
+	font-family: "BentonSans";
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Bold_unobfuscated_lMdNQy7_wKBHg77.eot");
+	src: url("#{$fontPath}/bentonsans/Benton_Sans-Bold_unobfuscated_lMdNQy7_wKBHg77.eot#iefix") format("embedded-opentype"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Bold_unobfuscated_lMdNQy7_wKBHg77.woff2") format("woff2"),
+	url("#{$fontPath}/bentonsans/Benton_Sans-Bold_unobfuscated_lMdNQy7_wKBHg77.woff") format("woff");
+
+}
