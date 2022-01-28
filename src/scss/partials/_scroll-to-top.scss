@@ -1,50 +1,5 @@
-[data-action="to-top"] {
-	position: fixed;
-	right: 15px;
-	bottom: 15px;
-	background: theme-color("primary");
-	width: 48px;
-	height: 48px;
-	line-height: 48px;
-	text-align: center;
-	color: color("white");
-	font-size: 18px;
-	cursor: pointer;
-	transition: 0.3s ease-out;
-	transform: translateX(63px);
-	opacity: 0;
-	pointer-events: none;
-	display: none;
-	z-index: 1020;
-	@include sm {
-		display: block;
-	}
-
-	@include lg {
-		width: 48px;
-		height: 48px;
-		line-height: 48px;
-		font-size: 16px;
-		transform: translateX(78px);
-	}
-
-	i:before {
-		transform: rotate(-90deg);
-		display: block;
-	}
-
-	&:hover {
-		background: $dark;
-	}
-	&.show {
-		opacity: 1;
-		transform: translateX(0);
-		pointer-events: auto;
-	}
-}
-
-.open-share-modal {
-	[data-action="to-top"].show {
-		opacity: 0;
+.top-button {
+	* {
+		color: white;
 	}
 }

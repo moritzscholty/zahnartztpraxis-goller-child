@@ -5,13 +5,12 @@ add_action('wp_enqueue_scripts', 'bootscore_child_enqueue_styles');
 function bootscore_child_enqueue_styles() {
 
   // child theme styles
+  wp_enqueue_style('bootstrap', get_theme_file_uri() . '/style.css');
   wp_enqueue_style('parent-style', get_theme_file_uri() . '/style.css');
 
   // child theme js
-  wp_enqueue_script( 'jquery' );
-  wp_enqueue_script('bootscore-script', get_theme_file_uri() . '/dist/js/theme.min.js', array('jquery'), '1.0', true );
-  wp_enqueue_script('custom-js', get_theme_file_uri() . '/dist/js/custom.min.js', array('jquery'), '1.0', true );
-
+  wp_enqueue_script('main', get_theme_file_uri() . '/dist/js/main.min.js', array('jquery'), '1.0', true );
+  wp_enqueue_script('bootscore-script', get_theme_file_uri() . '/dist/js/custom.min.js', array('jquery'), '1.0', true );
 }
 
 // login form styles
@@ -72,17 +71,19 @@ href="' . get_stylesheet_directory_uri() . '/assets/favicons/favicon.ico" />';
 add_action('login_head', 'add_site_favicon');
 add_action('admin_head', 'add_site_favicon');
 
-// include plugins
+// extensions
 
-// define path and URL to the LZB plugin.
-define( 'MY_LZB_PATH', get_stylesheet_directory() . '/inc/lzb/' );
-define( 'MY_LZB_URL', get_stylesheet_directory_uri() . '/inc/lzb/' );
-
-// include the LZB plugin.
-require_once MY_LZB_PATH . 'lazy-blocks.php';
-
-// customize the url setting to fix incorrect asset URLs.
-add_filter( 'lzb/plugin_url', 'my_lzb_url' );
-function my_lzb_url( $url ) {
-    return MY_LZB_URL;
+// activate scrollspy on page by id
+function add_scrollspy() {
+    if( is_page('164') ) { // page id
+      echo "<script>
+        jQuery(document).ready(function ($) {
+            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                target: '#nav-main',
+                offset: 200
+            })
+        });
+      </script>\n";
+   }
 }
+add_action( 'wp_footer', 'add_scrollspy', 0 );

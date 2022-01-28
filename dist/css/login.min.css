@@ -1,1 +1,18 @@
-#login{padding-top:12%}#login h1 a{background-size:100%;width:100%;height:65px;background-image:url(../../assets/images/login-logo.png)}#wp-submit{border-color:#667983;background-color:#667983}#wp-submit:hover{background:#80929c;border-color:#80929c}
+#login {
+  padding-top: 12%;
+}
+#login h1 a {
+  background-size: 100%;
+  width: 100%;
+  height: 65px;
+  background-image: url(../../assets/images/login-logo.png);
+}
+
+#wp-submit {
+  border-color: #cbe09c;
+  background-color: #cbe09c;
+}
+#wp-submit:hover {
+  background: #dfecc3;
+  border-color: #dfecc3;
+}

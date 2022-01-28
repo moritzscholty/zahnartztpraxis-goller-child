@@ -375,6 +375,47 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/placeholders\/video-placeholder-1280x720.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/placeholders\/video-placeholder-1280x720.mp4",
+      "oF" : 0
+    },
+    "\/assets\/placeholders\/wave.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/placeholders\/wave.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/blocks\/lazyblock-custom\/block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/lazyblock-custom\/block.php",
+      "oF" : 0
+    },
+    "\/blocks\/lazyblock-custom\/block.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/lazyblock-custom\/block.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/blocks\/lazyblock-headvisual\/block.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -394,6 +435,52 @@
       "oA" : 1,
       "oAP" : "\/blocks\/lazyblock-headvisual\/block.css",
       "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/blocks\/lazyblock-intro\/block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/lazyblock-intro\/block.php",
+      "oF" : 0
+    },
+    "\/blocks\/lazyblock-intro\/block.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/lazyblock-intro\/block.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/blocks\/lazyblock-service\/block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/lazyblock-service\/block.php",
+      "oF" : 0
+    },
+    "\/blocks\/lazyblock-service\/block.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/lazyblock-service\/block.css",
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -434,13 +521,264 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/dist\/js\/custom.min.js" : {
+    "\/dist\/fonts\/lato\/Lato-Black.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Black.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Black.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Black.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Black.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Black.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-BlackItalic.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-BlackItalic.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-BlackItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-BlackItalic.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-BlackItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-BlackItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Bold.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Bold.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Bold.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Bold.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-BoldItalic.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-BoldItalic.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-BoldItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-BoldItalic.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-BoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-BoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Hairline.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Hairline.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Hairline.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Hairline.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Hairline.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Hairline.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-HairlineItalic.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-HairlineItalic.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-HairlineItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-HairlineItalic.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-HairlineItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-HairlineItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Light.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Light.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Light.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Light.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Light.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Light.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-LightItalic.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-LightItalic.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-LightItalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-LightItalic.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-LightItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-LightItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Regular.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Regular.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Regular.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/Lato-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/Lato-Regular.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/lato-regularitalic.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/lato-regularitalic.eot",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/lato-regularitalic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/lato-regularitalic.woff",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/lato\/lato-regularitalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/lato\/lato-regularitalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/js\/main.min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dist\/js\/custom.min-min.js",
+      "oAP" : "\/dist\/js\/main.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/rellax.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/rellax.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -455,6 +793,26 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dist\/logo\/logo-sm.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/logo\/logo-sm.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/logo\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/logo\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/footer.php" : {
       "cB" : 0,
@@ -478,1503 +836,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/header.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/block-slug\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/block-slug\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/block-slug\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/block-slug\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/box\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/box\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/box\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/box\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/code-editor\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/code-editor\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/code-editor\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/code-editor\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/copied\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/copied\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/copied\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/copied\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/document-tabs\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/document-tabs\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/document-tabs\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/document-tabs\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/icon-picker\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/icon-picker\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/icon-picker\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/icon-picker\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/modal\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/modal\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/modal\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/modal\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/select\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/select\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/select\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/select\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/tab-panel\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/tab-panel\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/tab-panel\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/tab-panel\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/tabs\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/tabs\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/components\/tabs\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/components\/tabs\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code-preview\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code-preview\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code-preview\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code-preview\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/code\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/controls\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/controls\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/controls\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/controls\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/selected-control-settings\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/selected-control-settings\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/selected-control-settings\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/selected-control-settings\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/title\/editor-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/title\/editor-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/title\/editor.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/blocks\/title\/editor.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/index.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/index.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/index.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/index.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/style-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/style-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/constructor\/style.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/constructor\/style.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/css\/style-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/css\/style-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/css\/style.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/css\/style.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/templates\/index.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/templates\/index.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/templates\/style-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/templates\/style-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/templates\/style.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/templates\/style.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/tools\/index.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/tools\/index.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/tools\/index.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/tools\/index.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/tools\/style-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/tools\/style-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/admin\/tools\/style.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/admin\/tools\/style.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/css\/style-rtl.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/css\/style-rtl.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/css\/style.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/css\/style.min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/inc\/lzb\/assets\/js\/index.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/js\/index.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/assets\/js\/index.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/js\/index.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/assets\/js\/translation.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/assets\/js\/translation.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/assets\/svg\/icon-lazyblocks-black.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/inc\/lzb\/assets\/svg\/icon-lazyblocks-black.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/inc\/lzb\/assets\/svg\/icon-lazyblocks.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/inc\/lzb\/assets\/svg\/icon-lazyblocks.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/inc\/lzb\/classes\/class-admin.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-admin.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-blocks.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-blocks.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-controls.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-controls.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-deprecated.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-deprecated.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-dummy.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-dummy.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-force-gutenberg.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-force-gutenberg.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-icons.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-icons.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-migration.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-migration.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-rest.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-rest.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-templates.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-templates.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/classes\/class-tools.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/classes\/class-tools.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/_base\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/_base\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/checkbox\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/checkbox\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/checkbox\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/checkbox\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/classic_editor\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/classic_editor\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/classic_editor\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/classic_editor\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/classic_editor\/tmce.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/classic_editor\/tmce.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/code_editor\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/code_editor\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/code_editor\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/code_editor\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/color-control.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/color-control.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/color-control.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/color-control.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/color-palette-control.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/color-palette-control.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/color-palette-control.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/color-palette-control.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/script.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/script.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/color\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/color\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/date_time\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/date_time\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/date_time\/script.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/date_time\/script.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/date_time\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/date_time\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/email\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/email\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/email\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/email\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/file\/file-control.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/file\/file-control.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/file\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/file\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/file\/script.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/file\/script.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/file\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/file\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/gallery\/gallery-control.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/gallery\/gallery-control.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/gallery\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/gallery\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/gallery\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/gallery\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/image\/image-control.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/image\/image-control.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/image\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/image\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/image\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/image\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/inner_blocks\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/inner_blocks\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/inner_blocks\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/inner_blocks\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/number\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/number\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/number\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/number\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/password\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/password\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/password\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/password\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/radio\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/radio\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/radio\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/radio\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/range\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/range\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/range\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/range\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/repeater\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/repeater\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/repeater\/repeater-control.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/repeater\/repeater-control.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/repeater\/script.js.LICENSE.min.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/repeater\/script.js.LICENSE.min.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/repeater\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/repeater\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/rich_text\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/rich_text\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/rich_text\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/rich_text\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/select\/component-choices.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/select\/component-choices.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/select\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/select\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/select\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/select\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/text\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/text\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/text\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/text\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/textarea\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/textarea\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/textarea\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/textarea\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/toggle\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/toggle\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/toggle\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/toggle\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/controls\/url\/index.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/url\/index.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/controls\/url\/script.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/controls\/url\/script.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/languages\/lazy-blocks.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/inc\/lzb\/languages\/lazy-blocks-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/inc\/lzb\/languages\/lazy-blocks.pot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/languages\/lazy-blocks.pot",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/languages\/readme.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/languages\/readme.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/inc\/lzb\/lazy-blocks.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/lazy-blocks.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/LICENSE.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/LICENSE.txt",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/readme.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/readme.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/inc\/lzb\/templates\/template-not-found.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/templates\/template-not-found.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/date_i18n\/date_i18n.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/date_i18n\/date_i18n-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Arguments.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Arguments.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Autoloader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Autoloader.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/BaseString.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/BaseString.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Cache" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Cache",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Cache.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Cache.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/ChildContext.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/ChildContext.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Context.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Context.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Handlebars.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Handlebars.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helper\/BindAttrHelper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helper\/BindAttrHelper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helper\/EachHelper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helper\/EachHelper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helper\/IfHelper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helper\/IfHelper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helper\/UnlessHelper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helper\/UnlessHelper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helper\/WithHelper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helper\/WithHelper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Helpers.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Helpers.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Loader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Loader.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Loader\/ArrayLoader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Loader\/ArrayLoader.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Loader\/FilesystemLoader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Loader\/FilesystemLoader.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Loader\/InlineLoader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Loader\/InlineLoader.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Loader\/StringLoader.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Loader\/StringLoader.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Parser.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Parser.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/SafeString.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/SafeString.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/StringWrapper.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/StringWrapper.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Template.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Template.php",
-      "oF" : 0
-    },
-    "\/inc\/lzb\/vendor\/Handlebars\/Tokenizer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/inc\/lzb\/vendor\/Handlebars\/Tokenizer.php",
       "oF" : 0
     },
     "\/lib\/bootscore\/_alerts.scss" : {
@@ -2727,6 +1588,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/lib\/bootstrap\/bootstrap-grid.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/lib\/bootstrap\/bootstrap-grid-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/lib\/bootstrap\/bootstrap-grid.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2742,6 +1615,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/lib\/bootstrap\/bootstrap-reboot.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/lib\/bootstrap\/bootstrap-reboot-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/lib\/bootstrap\/bootstrap-reboot.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2756,6 +1641,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/lib\/bootstrap\/bootstrap-utilities.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/lib\/bootstrap\/bootstrap-utilities-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/lib\/bootstrap\/bootstrap-utilities.scss" : {
       "aP" : 0,
@@ -3462,6 +2359,44 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/lib\/rellax\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/lib\/rellax\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/lib\/rellax\/rellax.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dist\/js\/rellax.min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/page-blank-without-container.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-blank-without-container.php",
+      "oF" : 0
+    },
     "\/screenshot.png" : {
       "ft" : 32768,
       "iS" : 12342,
@@ -3475,27 +2410,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/js\/custom.js" : {
+    "\/src\/js\/_custom.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dist\/js\/custom.min.js",
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
-    "\/src\/js\/theme.js" : {
+    "\/src\/js\/_theme.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/js\/theme.min.js",
-      "oF" : 2,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/src\/js\/main.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/main.min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 1
     },
     "\/src\/scss\/_author.scss" : {
       "aP" : 0,
@@ -3598,7 +2544,7 @@
       "oA" : 0,
       "oAP" : "\/dist\/css\/scheme-elsemedia.min.css",
       "oF" : 2,
-      "oS" : 3,
+      "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
@@ -3611,9 +2557,9 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/css\/scheme-theme.min.css",
-      "oF" : 3,
-      "oS" : 3,
+      "oAP" : "\/src\/scss\/admin\/scheme-theme.scss",
+      "oF" : 2,
+      "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
@@ -3718,7 +2664,7 @@
       "oA" : 0,
       "oAP" : "\/dist\/css\/login.min.css",
       "oF" : 2,
-      "oS" : 3,
+      "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
@@ -3782,6 +2728,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/scss\/partials\/_globals.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_globals.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/scss\/partials\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3807,21 +2768,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_lightbox-videobox.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/src\/scss\/partials\/_linktree.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_linktree.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -3868,7 +2814,7 @@
       "oA" : 0,
       "oAP" : "\/style.css",
       "oF" : 2,
-      "oS" : 3,
+      "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
@@ -4216,7 +3162,7 @@
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
-    "esLintEnvironmentsMask" : 1,
+    "esLintEnvironmentsMask" : 8193,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
@@ -4925,7 +3871,7 @@
         "active" : 0
       },
       "no-unused-vars" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
       },
       "no-use-before-define" : {
@@ -5499,7 +4445,7 @@
       "process.env.NODE_ENV:::$NODE_ENV",
       "ENVIRONMENT:::$NODE_ENV"
     ],
-    "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingEnabled" : 0,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,

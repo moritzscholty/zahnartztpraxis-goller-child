@@ -19,7 +19,7 @@ p a {
 	@extend .spacer-pr-16;
 	transition: $hover-transition;
 	&:hover {
-		background: $dark;
+		background: $primary;
 		$color: $white;
 	}
 }

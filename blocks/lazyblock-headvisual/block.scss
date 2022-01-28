@@ -1,3 +1,202 @@
-.headvisual-headline {
-  color: $primary;
+.headvisual {
+  position: relative;
+  background-color: $black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+
+  .headvisual-video,
+  .headvisual-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .text-container {
+    z-index: 5;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.15;
+    z-index: 1;
+  }
+  // headvisual-scroll
+  .scroll-container {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 60px;
+    border: 3px solid $white;
+    background-color: $white;
+    border-radius: 15px;
+    z-index: 5;
+    opacity: 0.8;
+    transition: opacity ease-in-out 0.2s;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .scroller {
+      width: 16px;
+      border-radius: 8px;
+      background-color: $primary;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      bottom: 34px;
+      animation: scroller 3000ms ease-out infinite;
+      @keyframes scroller {
+        0% {
+          bottom: 34px;
+        }
+
+        5% {
+          top: 4px;
+        }
+
+        32% {
+          bottom: 4px;
+        }
+
+        66% {
+          top: 34px;
+          bottom: 4px;
+        }
+
+        100% {
+          top: 4px;
+          bottom: 34px;
+        }
+      }
+    }
+  }
+  // headvisual-wave
+  .wave-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%) translateY(-50%);
+
+    .wave {
+      position: absolute;
+      top: -198px;
+      width: 6400px;
+      height: 198px;
+      animation: wave 20s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+      transform: translate3d(0, 0, 0);
+
+      &:nth-of-type(2) {
+        top: -175px;
+        animation: wave 20s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 20s ease -1.25s infinite;
+        opacity: 1;
+      }
+      @keyframes wave {
+        0% {
+          margin-left: 0;
+        }
+
+        100% {
+          margin-left: -1600px;
+        }
+      }
+      @keyframes swell {
+        0%,
+        100% {
+          transform: translate3d(0,-25px,0);
+        }
+
+        50% {
+          transform: translate3d(0,5px,0);
+        }
+      }
+    }
+  }
+  // headvisual-circle
+  .circle-container {
+    z-index: 2;
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.4;
+
+      &:nth-of-type(1) {
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+        background-color: $white;
+        width: 320px;
+        height: 320px;
+        left: 15%;
+        top: 29%;
+      }
+
+      &:nth-of-type(2) {
+        @include media-breakpoint-down(sm) {
+          width: 200px;
+          height: 200px;
+          left: 25%;
+        }
+        background-color: $secondary;
+        width: 175px;
+        height: 175px;
+        left: 33%;
+        top: 33%;
+      }
+
+      &:nth-of-type(3) {
+        @include media-breakpoint-down(sm) {
+          top: 33%;
+        }
+        background-color: $primary;
+        width: 125px;
+        height: 125px;
+        right: 15%;
+        top: 36%;
+        opacity: 0.9;
+      }
+
+      &:nth-of-type(4) {
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+        background-color: $white;
+        width: 90px;
+        height: 90px;
+        right: 22%;
+        top: 43%;
+      }
+    }
+  }
+}
+/* Media Query for devices withi coarse pointers and no hover functionality */
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+@media (pointer: coarse) and (hover: none) {
+  .headvisual {
+    //background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  .headvisual video {}
 }
