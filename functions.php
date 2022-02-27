@@ -74,16 +74,41 @@ add_action('admin_head', 'add_site_favicon');
 // extensions
 
 // activate scrollspy on page by id
-function add_scrollspy() {
-    if( is_page('164') ) { // page id
-      echo "<script>
-        jQuery(document).ready(function ($) {
-            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-                target: '#nav-main',
-                offset: 200
-            })
-        });
-      </script>\n";
-   }
+if (file_exists('testing.txt')) {
+  // local dev
+  function add_scrollspy() {
+      if( is_page('164') ) { // page id
+        echo "<script>
+          jQuery(document).ready(function ($) {
+              var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                  target: '#nav-main',
+                  offset: 200
+              })
+          });
+        </script>\n";
+     }
+  }
+  add_action( 'wp_footer', 'add_scrollspy', 0 );
+  // live
+} else {
+    function add_scrollspy() {
+        if( is_page('9') ) { // page id
+          echo "<script>
+            jQuery(document).ready(function ($) {
+                var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                    target: '#nav-main',
+                    offset: 200
+                })
+            });
+          </script>\n";
+       }
+    }
+    add_action( 'wp_footer', 'add_scrollspy', 0 );
 }
-add_action( 'wp_footer', 'add_scrollspy', 0 );
+
+// bundle relevant plugins in theme_dir
+
+define( 'MY_BPL_PATH', get_stylesheet_directory() . '/inc/bpl/' );
+define( 'MY_BPL_URL', get_stylesheet_directory_uri() . '/inc/bpl/' );
+
+require_once( MY_BPL_PATH . 'index.php' );

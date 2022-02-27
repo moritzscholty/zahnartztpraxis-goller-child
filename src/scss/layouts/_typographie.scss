@@ -22,4 +22,52 @@ p a {
 		background: $primary;
 		$color: $white;
 	}
+	&:before {
+	content: '';
+  position: absolute;
+  z-index:0;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0);
+  transition: ease-in-out 0.2s;
+	}
+	&:hover:before {
+		background-color: rgba(0,0,0,.05);
+	}
+}
+
+.btn-default {
+	text-transform: uppercase;
+	font-weight: 300;
+	text-decoration: none;
+	background: $primary;
+	color: $white;
+	border-color: inherit;
+	border-radius: 25px;
+	z-index: 1;
+	@extend .text-18-bold;
+	@extend .spacer-pt-12;
+	@extend .spacer-pb-12;
+	@extend .spacer-pl-16;
+	@extend .spacer-pr-16;
+	&:before {
+		content: '';
+	  position: absolute;
+	  z-index: 999;
+	  top:0;
+	  left:0;
+	  right:0;
+	  bottom:0;
+	  background-color: rgba(0,0,0,0);
+		border-radius: 25px;
+	  transition: ease-in-out 0.2s;
+	}
+	&:hover {
+		color: $white!important;
+	}
+	&:hover:before {
+		background-color: rgba(0,0,0,.05);
+	}
 }

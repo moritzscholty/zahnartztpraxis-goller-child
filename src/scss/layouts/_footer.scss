@@ -1,3 +1,66 @@
-#page-footer {
+.footer {
+  position: relative;
+  * {
+    font-size: 1rem!important;
+    z-index: 3;
+  }
+  .footer-about,
+  .footer-nav,
+  .footer-social {
+    line-height: 1.75;
+  }
+  .footer-logo {
+    img {
+      width: 100%;
+      min-width: 300px;
+      height: auto;
+    }
+  }
+  .footer-menu {
+    display: inline-block;
+    a {
+      padding: 0;
+      color: inherit;
+      line-height: 1.75;
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  .social-wrap {
+    .social-icon {
+      &:not(:last-child) {
+        margin-right: .75rem;
+      }
+    }
+    img {
+      max-width: 30px;
+      max-height: 30px;
+      transition: transform 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
 
+.info {
+  * {
+    font-size: .9rem;
+    line-height: 3;
+  }
+  .container {
+    a {
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
 }

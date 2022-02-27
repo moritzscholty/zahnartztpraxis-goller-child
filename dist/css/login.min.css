@@ -9,10 +9,10 @@
 }
 
 #wp-submit {
-  border-color: #cbe09c;
-  background-color: #cbe09c;
+  border-color: #667983;
+  background-color: #667983;
 }
 #wp-submit:hover {
-  background: #dfecc3;
-  border-color: #dfecc3;
+  background: #80929c;
+  border-color: #80929c;
 }

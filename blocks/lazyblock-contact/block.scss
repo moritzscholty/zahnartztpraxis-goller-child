@@ -1,0 +1,76 @@
+.contact {
+  // for shape divider
+  position: relative;
+  z-index: 3;
+  .contact-wrap {
+    font-size: 1.25rem;
+    color: $darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-list-point {
+    position:relative;
+    white-space: pre-wrap;
+    margin-left: 80px;
+    line-height: 2;
+    transition: color 0.3s ease-in-out;
+    a {
+      text-decoration: none;
+      border-bottom: 0;
+      color: inherit;
+      transition: none;
+    }
+    &:not(:last-of-type) {
+      margin-bottom: 1.5rem;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      left: -80px;
+      height: 45px;
+      min-width: 40px;
+      transition: transform 0.3s ease-in-out;
+    }
+    &:hover {
+      color: $primary;
+      &:before {
+        transform: scale(1.15);
+      }
+    }
+  }
+  .contact-phone {
+    &:before {
+      background-image: url("data:image/svg+xml,%3Csvg id='phone' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 42 42'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23c8de99;%7D%3C/style%3E%3C/defs%3E%3Cg id='phone-2' data-name='phone'%3E%3Cpath id='Path_46' data-name='Path 46' class='cls-1' d='M37.21,30a4.14,4.14,0,0,0-3-1.37,4.28,4.28,0,0,0-3,1.36l-2.81,2.8-.68-.36c-.32-.16-.62-.31-.88-.47a30.45,30.45,0,0,1-7.31-6.65,18.12,18.12,0,0,1-2.4-3.77c.73-.67,1.41-1.36,2.06-2,.25-.25.49-.51.75-.76A4.06,4.06,0,0,0,20.29,13a3.59,3.59,0,0,0-.39-.39l-2.43-2.42c-.27-.28-.56-.56-.82-.84-.54-.55-1.1-1.12-1.67-1.65a4.21,4.21,0,0,0-3-1.31A4.36,4.36,0,0,0,9,7.73H9l-3,3A6.44,6.44,0,0,0,4,14.91a15.45,15.45,0,0,0,1.13,6.58A38.15,38.15,0,0,0,12,32.8,41.75,41.75,0,0,0,25.87,43.68,21.75,21.75,0,0,0,33.68,46l.56,0a6.74,6.74,0,0,0,5.13-2.2l0,0A21.39,21.39,0,0,1,41,42.15c.38-.36.77-.74,1.15-1.14a4.4,4.4,0,0,0,1.34-3.07,4.24,4.24,0,0,0-1.36-3Zm3.18,9.34h0c-.35.37-.7.71-1.09,1.08a23.81,23.81,0,0,0-1.71,1.77,4.28,4.28,0,0,1-3.34,1.41h-.41a19.37,19.37,0,0,1-6.93-2.07A39.48,39.48,0,0,1,13.8,31.28,36,36,0,0,1,7.41,20.65a12.54,12.54,0,0,1-1-5.54,4.08,4.08,0,0,1,1.23-2.64l3-3A2,2,0,0,1,12,8.82a1.91,1.91,0,0,1,1.3.62l0,0c.54.5,1.06,1,1.6,1.58l.84.86,2.43,2.42a1.71,1.71,0,0,1,.39,2.37,2,2,0,0,1-.39.38c-.26.26-.51.52-.76.76-.75.77-1.46,1.48-2.23,2.17l-.05,0a1.81,1.81,0,0,0-.46,2l0,.08a19,19,0,0,0,2.87,4.67h0A32.64,32.64,0,0,0,25.5,34c.35.21.72.41,1.09.59s.62.31.88.47a.6.6,0,0,1,.11.06,1.91,1.91,0,0,0,.88.22,1.89,1.89,0,0,0,1.35-.61l3-3A2,2,0,0,1,34.19,31a1.78,1.78,0,0,1,1.28.65l0,0,4.89,4.88A1.75,1.75,0,0,1,40.71,39a1.62,1.62,0,0,1-.32.32Z' transform='translate(-4 -4)'/%3E%3Cpath id='Path_47' data-name='Path 47' class='cls-1' d='M26.69,14A11.42,11.42,0,0,1,36,23.28a1.19,1.19,0,0,0,1.18,1l.21,0a1.19,1.19,0,0,0,1-1.38h0A13.78,13.78,0,0,0,27.11,11.63a1.21,1.21,0,0,0-1.39,1,1.18,1.18,0,0,0,1,1.37Z' transform='translate(-4 -4)'/%3E%3Cpath id='Path_48' data-name='Path 48' class='cls-1' d='M46,22.53A22.71,22.71,0,0,0,27.44,4,1.2,1.2,0,0,0,27,6.38,20.31,20.31,0,0,1,43.62,22.92a1.19,1.19,0,0,0,1.18,1l.2,0a1.17,1.17,0,0,0,1-1.34Z' transform='translate(-4 -4)'/%3E%3C/g%3E%3C/svg%3E");    }
+  }
+  .contact-email {
+    &:before {
+      background-image: url("data:image/svg+xml,%3Csvg id='email' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 30.8'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23c8de99;%7D%3C/style%3E%3C/defs%3E%3Cg id='email-2' data-name='email'%3E%3Cpath id='Path_43' data-name='Path 43' class='cls-1' d='M43.13,9.1H6.87A3.86,3.86,0,0,0,3,13v23.1A3.86,3.86,0,0,0,6.87,39.9H43.13A3.86,3.86,0,0,0,47,36.05V13A3.86,3.86,0,0,0,43.13,9.1Zm-.59,2.57L26,28.19a1.52,1.52,0,0,1-2,0L7.46,11.67Zm-37,23.91V13.42L16.67,24.5Zm1.88,1.75,11-11L22.18,30a4.09,4.09,0,0,0,5.65,0l3.68-3.68,11,11Zm37-1.75L33.33,24.5,44.42,13.42Z' transform='translate(-3 -9.1)'/%3E%3C/g%3E%3C/svg%3E");    }
+  }
+  .contact-address {
+    &:before {
+      background-image: url("data:image/svg+xml,%3Csvg id='address' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 50'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23c8de99;%7D%3C/style%3E%3C/defs%3E%3Cg id='address-2' data-name='address'%3E%3Cg id='Group_124' data-name='Group 124'%3E%3Cg id='Group_123' data-name='Group 123'%3E%3Cpath id='Path_44' data-name='Path 44' class='cls-1' d='M13,26.68h0a14.77,14.77,0,1,1,24-.23c-.12.23.69-1-12.12,18.86Zm26.65,1.61A17.54,17.54,0,0,0,43,17.94a18,18,0,0,0-36,0,17.61,17.61,0,0,0,3.46,10.58l13.27,20.7a1.56,1.56,0,0,0,2.13.57l.18-.11c.23-.12.34-.35.46-.46C26.27,49.22,39.42,28.63,39.65,28.29Z' transform='translate(-7 0)'/%3E%3C/g%3E%3C/g%3E%3Cg id='Group_126' data-name='Group 126'%3E%3Cg id='Group_125' data-name='Group 125'%3E%3Cpath id='Path_45' data-name='Path 45' class='cls-1' d='M24.9,9.8A8.17,8.17,0,1,0,33.09,18h0A8.21,8.21,0,0,0,24.9,9.8Zm0,13.11a4.95,4.95,0,1,1,5-4.95h0A4.92,4.92,0,0,1,25,22.91Z' transform='translate(-7 0)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+  }
+  .contact-map {
+    &.greyscale {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    position: relative;
+    border-radius: 25px;
+    box-shadow: $box-shadow-contact;
+    opacity: .8;
+    transition: opacity ease-in-out 0.2s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

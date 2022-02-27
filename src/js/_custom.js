@@ -1,5 +1,6 @@
 jQuery(function ($) {
 
+  // header nav
   $(document).ready(function(){
 
     const navbar = document.querySelector('.site-header')
@@ -17,7 +18,18 @@ jQuery(function ($) {
 
   });
 
-}); // jQuery End
+    // register rellax.js
+    var rellax = new Rellax('.rellax');
 
-// register rellax.js
-var rellax = new Rellax('.rellax');
+    // init Masonry
+    var $grid = $('.row-masonry').masonry({
+      itemSelector: '.gallery-image',
+      percentPosition: true
+    });
+    // layout Masonry after each image loads
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry();
+    });
+
+
+}); // jQuery End

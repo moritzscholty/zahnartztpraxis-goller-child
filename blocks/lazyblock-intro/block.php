@@ -1,4 +1,5 @@
-<section class="base-section-spacing">
+<section class="base-section-spacing <?php echo $attributes['intro-background-color']; ?> position-relative">
+
   <div class="intro container">
     <div class="row gx-5 gap-5">
 
@@ -28,6 +29,8 @@
         <?php endif; ?>
 
       </div>
+
     </div>
   </div>
+
 </section>

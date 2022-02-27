@@ -3,3 +3,21 @@
 .lead {
   line-height: $line-height-lead;
 }
+
+.shapedividers-wrapper {
+  &.fill-white {
+    svg {
+      fill: $white!important;;
+    }
+  }
+  &.fill-softgrey {
+    svg {
+      fill: $softgrey!important;;
+    }
+  }
+  &.fill-lightgrey {
+    svg {
+      fill: $lightgrey!important;
+    }
+  }
+}

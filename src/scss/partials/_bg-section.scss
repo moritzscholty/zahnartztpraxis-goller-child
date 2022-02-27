@@ -10,6 +10,42 @@
 	}
 }
 
+.bg-white {
+ background: $white;
+}
+
+.bg-softgrey {
+ background: $softgrey;
+}
+
+.bg-lightgrey {
+ background: $lightgrey;
+}
+
+.bg-darkgrey {
+ background: $darkgrey;
+}
+
+.bg-darkergrey {
+	background: $darkergrey;
+}
+
+.bg-softgrey-gradient {
+	background: $white; /* Old browsers */
+	background: -moz-linear-gradient(top,  $softgrey 0%, $white 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  $softgrey 0%,$white 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  $softgrey 0%,$white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$softgrey', endColorstr='$white',GradientType=0 ); /* IE6-9 */
+}
+
+.bg-lightgrey-gradient {
+	background: $white; /* Old browsers */
+	background: -moz-linear-gradient(top,  $lightgrey 0%, $white 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  $lightgrey 0%,$white 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  $lightgrey 0%,$white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lightgrey', endColorstr='$white',GradientType=0 ); /* IE6-9 */
+}
+
 .mirror-image {
 	position: relative;
 	max-width: 40%;
@@ -109,5 +145,3 @@
 		}
 	}
 }
-
-
