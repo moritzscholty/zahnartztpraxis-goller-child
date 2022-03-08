@@ -40,19 +40,20 @@
         background-color: $lightgrey;
         width: 150px;
         height: 150px;
-        top: 65%;
-        right: 8%;
+        opacity: 0.5;
+        top: 75%;
+        right: 2%;
         z-index: 2;
       }
 
       &:nth-of-type(2) {
         @include media-breakpoint-down(sm) {}
         background-color: $primary;
-        width: 225px;
-        height: 225px;
-        opacity: 0.9;
-        top: 20%;
-        right: 9%;
+        width: 250px;
+        height: 250px;
+        opacity: 0.6;
+        top: 15%;
+        right: 0%;
         z-index: 2;
       }
     }

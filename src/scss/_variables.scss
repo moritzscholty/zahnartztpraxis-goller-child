@@ -5,8 +5,8 @@ $secondary: #9ca2a3 !default;
 $lightgrey: #e5e5e5 !default;
 $darkgrey: #575756 !default;
 $darkergrey: #3c3c3c !default;
+$footergrey: #454545 !default;
 $softgrey: #f6f6f6 !default;
-$lightgrey: #e5e5e5 !default;
 // $success: $green !default;
 // $info: $cyan !default;
 // $warning: $yellow !default;
@@ -190,8 +190,10 @@ $body-color:                $secondary !default;
 $body-text-align:           null !default;
 
 // typography
-$font-size-base:              1.1rem !default; // Assumes the browser default, typically `16px`
-$lead-font-size:              $font-size-base * 2 !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$lead-font-size:              $font-size-base * 1.8 !default;
+$font-size-nav:               $font-size-base * .9 !default;
+$font-size-btn:               $font-size-base * .9 !default;
 
 $h1-font-size:                $font-size-base * 5 !default;
 $h2-font-size:                $font-size-base * 3 !default;
@@ -218,3 +220,4 @@ $box-shadow-header:           0 .5rem 1.25rem rgba($black, .050) !default;
 $box-shadow-service:          0 .5rem 1rem rgba($black, .025) !default;
 $box-shadow-contact:          0 .5rem 1rem rgba($black, .025) !default;
 $box-shadow-gallery:          0 .5rem 1rem rgba($black, .020) !default;
+$box-shadow-sidebar:          0 .5rem 1rem rgba($black, .025) !default;

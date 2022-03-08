@@ -3,7 +3,7 @@ jQuery(function ($) {
   // header nav
   $(document).ready(function(){
 
-    const navbar = document.querySelector('.site-header')
+    const navbar = document.querySelector('.header-anim')
 
   window.addEventListener('scroll', function(e) {
     const lastPosition = window.scrollY
@@ -17,6 +17,11 @@ jQuery(function ($) {
   })
 
   });
+
+    // additional parameters detail nav
+    if ($("#bootscore-navbar").hasClass("detail-nav")) {
+      $('a[href*="service"]').addClass( "active" );
+    }
 
     // register rellax.js
     var rellax = new Rellax('.rellax');
@@ -32,4 +37,6 @@ jQuery(function ($) {
     });
 
 
-}); // jQuery End
+});
+
+// jQuery End

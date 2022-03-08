@@ -83,7 +83,7 @@
     </div>
 
 
-  <div class="bootscore-footer bg-darkgrey pt-5 pb-3">
+  <div class="bootscore-footer pt-5 pb-3">
     <div class="container">
 
       <div class="row">
@@ -183,9 +183,51 @@
   </div>
 </div>
 
+<!-- topbtn -->
 <div class="top-button position-fixed zi-1020">
-  <a href="#to-top" class="btn btn-primary shadow"><i class="fas fa-chevron-up"></i></a>
+  <a href="#to-top">
+    <div class="top-button-wrap">
+      <div class="top-button-link" href="#to-top"></div>
+    </div>
+  </a>
 </div>
+
+<!-- sidebar -->
+<aside class="sidebar">
+
+  <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone");?>">
+    <div class="sidebar-btn sidebar-phone">
+      <div class="sidebar-icon-wrap">
+        <div class="sidebar-icon"></div>
+      </div>
+      <div class="sidebar-field"><?php the_field("sidebar-phone");?></div>
+    </div>
+  </a>
+
+  <a class="sidebar-link" href="mailto:<?php the_field("sidebar-email");?>">
+    <div class="sidebar-btn sidebar-email">
+      <div class="sidebar-icon-wrap">
+        <div class="sidebar-icon"></div>
+      </div>
+      <div class="sidebar-field"><?php the_field("sidebar-email");?></div>
+    </div>
+  </a>
+
+  <?php
+  $addressurl = get_field('sidebar-address-url');
+  ?>
+  <a class="sidebar-link" href="<?php echo esc_url( $addressurl ); ?>" target="_blank">
+    <div class="sidebar-btn sidebar-address">
+      <div class="sidebar-icon-wrap">
+        <div class="sidebar-icon"></div>
+      </div>
+      <div class="sidebar-field"><?php the_field("sidebar-address");?></div>
+    </div>
+  </a>
+
+</aside>
+
+
 
 </div><!-- #page -->
 

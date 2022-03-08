@@ -76,20 +76,22 @@
 
         <!-- custom circles -->
         <?php if ( $attributes['custom-circle'] ) : ?>
-          <div class="circle rellax" data-rellax-speed="1.4"></div>
-          <div class="circle rellax" data-rellax-speed="1.1"></div>
+          <div class="circle rellax" data-rellax-speed="1.8"></div>
+          <div class="circle rellax" data-rellax-speed="1.3"></div>
         <?php endif; ?>
 
       </div>
 
       <!-- custom second col -->
       <div class="col-md my-auto <?php if ( $attributes['custom-order'] ) : ?>change-order order-1<?php endif; ?>">
-        <?php if ( $attributes['custom-sub'] ) : ?>
-          <p class="lead mb-0"><?php echo $attributes['custom-sub']; ?></p>
-        <?php endif; ?>
-        <?php if ( $attributes['custom-headline'] ) : ?>
-          <h2 class="mb-5"><?php echo $attributes['custom-headline']; ?></h2>
-        <?php endif; ?>
+        <div class="t-c <?php echo $attributes['custom-text-align']; ?>">
+          <?php if ( $attributes['custom-sub'] ) : ?>
+            <p class="lead mb-0"><?php echo $attributes['custom-sub']; ?></p>
+          <?php endif; ?>
+          <?php if ( $attributes['custom-headline'] ) : ?>
+            <h2 class="mb-5"><?php echo $attributes['custom-headline']; ?></h2>
+          <?php endif; ?>
+        </div>
         <?php if ( $attributes['custom-inner'] ) : ?>
           <?php echo $attributes['custom-inner']; ?>
         <?php endif; ?>

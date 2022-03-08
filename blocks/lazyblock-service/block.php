@@ -73,7 +73,7 @@
 
     <!-- service heading -->
     <div class="row">
-      <div class="col my-auto w-100">
+      <div class="col my-auto w-100 t-c <?php echo $attributes['service-text-align']; ?>">
         <?php if ( $attributes['service-sub'] ) : ?>
           <p class="lead mb-0"><?php echo $attributes['service-sub']; ?></p>
         <?php endif; ?>

@@ -72,16 +72,17 @@
   <div class="gallery position-relative">
 
     <!-- gallery heading -->
-    <div class="row">
+    <div class="container">
+      <div class="row">
 
-      <div class="col my-auto w-50"></div>
-      <div class="col my-auto w-50 <?php echo $attributes['gallery-headline-alignment']; ?>">
-        <?php if ( $attributes['gallery-sub'] ) : ?>
-          <p class="lead mb-0"><?php echo $attributes['gallery-sub']; ?></p>
-        <?php endif; ?>
-        <?php if ( $attributes['gallery-headline'] ) : ?>
-          <h2 class="mb-5"><?php echo $attributes['gallery-headline']; ?></h2>
-        <?php endif; ?>
+        <div class="col my-auto w-100 t-c <?php echo $attributes['gallery-text-align']; ?>">
+          <?php if ( $attributes['gallery-sub'] ) : ?>
+            <p class="lead mb-0"><?php echo $attributes['gallery-sub']; ?></p>
+          <?php endif; ?>
+          <?php if ( $attributes['gallery-headline'] ) : ?>
+            <h2 class="mb-5"><?php echo $attributes['gallery-headline']; ?></h2>
+          <?php endif; ?>
+        </div>
       </div>
     </div>
 
@@ -92,7 +93,11 @@
 
         <?php foreach( $attributes['gallery-images'] as $image ): ?>
 
-          [ajax_load_more]
+          <div class="col col-sm-6 col-md-4 masonry-item">
+            <div class="img-wrap">
+              <a data-fslightbox="gallery" href="<?php echo esc_url( $image['url'] ); ?>" class="gallery-image-link"><img class="gallery-image" src="<?php echo esc_url( $image['url'] ); ?>" alt="<?php echo esc_attr( $image['alt'] ); ?>"></a>
+            </div>
+          </div>
 
         <?php endforeach; ?>
 

@@ -37,7 +37,7 @@
 
   <div id="page" class="site">
 
-    <header id="masthead" class="site-header header-anim">
+    <header id="masthead" class="site-header active">
 
       <div class="fixed-top bg-light">
 
@@ -63,7 +63,7 @@
                   'container' => false,
                   'menu_class' => '',
                   'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
+                  'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav detail-nav ms-auto %2$s">%3$s</ul>',
                   'depth' => 2,
                   'walker' => new bootstrap_5_wp_nav_menu_walker()
                 ));

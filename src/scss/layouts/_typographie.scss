@@ -8,6 +8,10 @@ p a {
 	}
 }
 
+.lead {
+	padding-bottom: 2px;
+}
+
 .btn-primary {
 	@extend .text-18-bold;
 	background: $primary;
@@ -39,6 +43,7 @@ p a {
 }
 
 .btn-default {
+	font-size: $font-size-btn;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-decoration: none;
@@ -47,6 +52,8 @@ p a {
 	border-color: inherit;
 	border-radius: 25px;
 	z-index: 1;
+	letter-spacing: 2px;
+	line-height: 1.2;
 	@extend .text-18-bold;
 	@extend .spacer-pt-12;
 	@extend .spacer-pb-12;

@@ -33,10 +33,10 @@
     <!-- headvisual circles -->
     <?php if ( $attributes['headvisual-circle'] ) : ?>
       <div class="circle-container">
-        <div class="circle rellax" data-rellax-speed="2"></div>
-      	<div class="circle rellax" data-rellax-speed="3"></div>
-      	<div class="circle rellax" data-rellax-speed="5"></div>
-        <div class="circle rellax" data-rellax-speed="6"></div>
+        <div class="circle rellax" data-rellax-speed="-8"></div>
+      	<div class="circle rellax" data-rellax-speed="-9"></div>
+      	<div class="circle rellax" data-rellax-speed="-8"></div>
+        <div class="circle rellax" data-rellax-speed="-9"></div>
       </div>
     <?php endif; ?>
 

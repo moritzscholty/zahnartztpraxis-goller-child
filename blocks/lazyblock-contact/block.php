@@ -95,7 +95,7 @@
             <p class="contact-list-point contact-email"><a href="mailto:<?php echo $attributes['contact-email']; ?>"><?php echo $attributes['contact-email']; ?></a></p>
           <?php endif; ?>
           <?php if ( $attributes['contact-address'] ) : ?>
-            <p class="contact-list-point contact-address"><?php echo $attributes['contact-address']; ?></p>
+            <p class="contact-list-point contact-address"><a href="<?php echo $attributes['contact-maps-ext-url']; ?>" target="_blank"><?php echo $attributes['contact-address']; ?></a></p>
           <?php endif; ?>
         </div>
       </div>

@@ -21,3 +21,22 @@
     }
   }
 }
+
+
+.t-c {
+  &.t-end {
+    h2, p.lead {
+      text-align: right;
+    }
+  }
+  &.t-center {
+    h2, p.lead {
+      text-align: center;
+    }
+  }
+  &.t-start {
+    h2, p.lead {
+      text-align: left;
+    }
+  }
+}

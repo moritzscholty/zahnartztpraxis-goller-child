@@ -13,7 +13,7 @@
 
     &.md {
       img {
-        height: 90px;
+        height: 80px;
         width: auto;
       }
     }
@@ -39,6 +39,7 @@
   }
 
   .nav-link {
+    font-size: $font-size-nav;
     @include media-breakpoint-up(lg) {
       padding-top: 2.5rem;
       padding-bottom: 2rem;

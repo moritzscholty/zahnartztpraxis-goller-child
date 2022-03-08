@@ -439,6 +439,29 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/blocks\/lazyblock-detail\/block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/lazyblock-detail\/block.php",
+      "oF" : 0
+    },
+    "\/blocks\/lazyblock-detail\/block.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/lazyblock-detail\/block.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/blocks\/lazyblock-gallery\/block.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -566,6 +589,16 @@
       "oAP" : "\/dist\/css\/scheme-theme.min-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/dist\/divider\/vertical-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/vertical-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dist\/fonts\/lato\/Lato-Black.eot" : {
       "cB" : 0,
@@ -818,6 +851,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dist\/js\/theme.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/theme.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dist\/logo\/logo-bw.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -848,6 +892,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/footer-fixed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/footer-fixed.php",
+      "oF" : 0
+    },
     "\/footer.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -862,6 +914,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/functions.php",
+      "oF" : 0
+    },
+    "\/header-fixed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header-fixed.php",
       "oF" : 0
     },
     "\/header.php" : {
@@ -3442,6 +3502,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/page-blank-fixed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-blank-fixed.php",
+      "oF" : 0
+    },
     "\/page-blank-without-container.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3452,12 +3520,12 @@
     },
     "\/screenshot.png" : {
       "ft" : 32768,
-      "iS" : 46251,
+      "iS" : 93815,
       "oA" : 0,
       "oAP" : "\/screenshot.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,

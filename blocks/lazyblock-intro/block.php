@@ -5,12 +5,14 @@
 
       <!-- intro first col -->
       <div class="col-md my-auto <?php if ( $attributes['intro-order'] ) : ?>change-order order-2<?php endif; ?>">
-        <?php if ( $attributes['intro-sub'] ) : ?>
-          <p class="lead mb-0"><?php echo $attributes['intro-sub']; ?></p>
-        <?php endif; ?>
-        <?php if ( $attributes['intro-headline'] ) : ?>
-          <h2 class="mb-5"><?php echo $attributes['intro-headline']; ?></h2>
-        <?php endif; ?>
+        <div class="t-c <?php echo $attributes['intro-text-align']; ?>">
+          <?php if ( $attributes['intro-sub'] ) : ?>
+            <p class="lead mb-0"><?php echo $attributes['intro-sub']; ?></p>
+          <?php endif; ?>
+          <?php if ( $attributes['intro-headline'] ) : ?>
+            <h2 class="mb-5"><?php echo $attributes['intro-headline']; ?></h2>
+          <?php endif; ?>
+        </div>
         <?php if ( $attributes['intro-text'] ) : ?>
           <p><?php echo $attributes['intro-text']; ?></p>
         <?php endif; ?>
@@ -24,8 +26,8 @@
 
         <!-- intro circles -->
         <?php if ( $attributes['intro-circle'] ) : ?>
-          <div class="circle rellax" data-rellax-speed="1.4"></div>
-        	<div class="circle rellax" data-rellax-speed="1.1"></div>
+          <div class="circle rellax" data-rellax-speed="1.8"></div>
+        	<div class="circle rellax" data-rellax-speed="1.3"></div>
         <?php endif; ?>
 
       </div>

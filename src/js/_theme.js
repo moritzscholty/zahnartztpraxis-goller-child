@@ -60,7 +60,7 @@ jQuery(function ($) {
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
           // Change your offset according to your navbar height
-          $('html, body').animate({ scrollTop: target.offset().top - 120 }, 1000);
+          $('html, body').animate({ scrollTop: target.offset().top - 140 }, 1000);
           return !1;
         }
       }
@@ -76,11 +76,11 @@ jQuery(function ($) {
     $('.scroll').on('click', function (e) {
       e.preventDefault();
       // Change your offset according to your navbar height
-      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top - 55 }, 1000, 'swing');
+      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top - 140 }, 1000, 'swing');
     });
     if (window.location.hash) {
       // Change your offset according to your navbar height
-      $('html, body').animate({ scrollTop: $(window.location.hash).offset().top - 55 }, 1000, 'swing');
+      $('html, body').animate({ scrollTop: $(window.location.hash).offset().top - 140 }, 1000, 'swing');
     }
   });
 
