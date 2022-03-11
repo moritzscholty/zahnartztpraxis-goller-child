@@ -32,8 +32,8 @@
       background-position: center;
       background-size: contain;
       left: -80px;
-      height: 40px;
-      min-width: 35px;
+      height: 37px;
+      min-width: 33px;
       transition: transform 0.3s ease-in-out;
     }
     &:hover {
@@ -72,5 +72,25 @@
     &:hover {
       opacity: 1;
     }
+    @include media-breakpoint-down(md) {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.contact-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: translate(0, -50%);
+  #contact-divider-1 {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    fill: $white;
+    //height: 262px;
   }
 }

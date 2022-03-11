@@ -5,15 +5,15 @@
 
   <!-- headvisual video -->
   <?php if ( $attributes['headvisual-option'] ) : ?>
-    <img class="headvisual-image" src="<?php echo esc_url( $attributes['headvisual-image']['url'] ); ?>" >
+    <div class="headvisual-image" style="background-image: url('<?php echo esc_url( $attributes['headvisual-image']['url'] ); ?>')"></div>
   <?php else: ?>
     <?php if ( isset( $attributes['headvisual-video']['url'] ) ) : ?>
       <video class="headvisual-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="<?php echo esc_url( $attributes['headvisual-video']['url'] ); ?>" />
-          <img src="<?php echo esc_url( $attributes['headvisual-image']['url'] ); ?>" alt="<?php echo esc_attr( $attributes['headvisual-image']['alt'] ); ?>">
+          <div class="headvisual-image" style="background-image: url('<?php echo esc_url( $attributes['headvisual-image']['url'] ); ?>')"></div>
       </video>
     <?php else: ?>
-      <img class="headvisual-image" src="<?php echo esc_url( $attributes['headvisual-image']['url'] ); ?>" alt="<?php echo esc_attr( $attributes['headvisual-image']['alt'] ); ?>">
+      <div class="headvisual-image" style="background-image: url('<?php echo esc_url( $attributes['headvisual-image']['url'] ); ?>')"></div>
     <?php endif; ?>
   <?php endif; ?>
 
@@ -50,10 +50,10 @@
     <?php endif; ?>
 
     <!-- headvisual wave -->f
-    <div class="wave-container">
+    <div class="wave-container ">
       <?php if ( $attributes['headvisual-waves'] ) : ?>
         <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/placeholders/wave.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
-        <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/placeholders/wave.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
+        <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/placeholders/wave-2.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
       <?php endif; ?>
     </div>
   </div>

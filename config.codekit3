@@ -375,6 +375,26 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/placeholders\/Shape_6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/placeholders\/Shape_6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/placeholders\/Shape_7.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/placeholders\/Shape_7.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/placeholders\/video-placeholder-1280x720.mp4" : {
       "cB" : 0,
       "ft" : 8192,
@@ -382,6 +402,16 @@
       "oA" : 0,
       "oAP" : "\/assets\/placeholders\/video-placeholder-1280x720.mp4",
       "oF" : 0
+    },
+    "\/assets\/placeholders\/wave-2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/placeholders\/wave-2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/assets\/placeholders\/wave.svg" : {
       "ft" : 2097152,
@@ -531,6 +561,29 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/blocks\/lazyblock-meta\/block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/lazyblock-meta\/block.php",
+      "oF" : 0
+    },
+    "\/blocks\/lazyblock-meta\/block.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/lazyblock-meta\/block.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/blocks\/lazyblock-service\/block.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -589,6 +642,76 @@
       "oAP" : "\/dist\/css\/scheme-theme.min-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/dist\/divider\/horizontal-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/divider\/horizontal-2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/divider\/horizontal-3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/divider\/horizontal-4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/divider\/horizontal-5.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-5.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/divider\/horizontal-6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/divider\/horizontal-7.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/divider\/horizontal-7.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dist\/divider\/vertical-1.svg" : {
       "ft" : 2097152,

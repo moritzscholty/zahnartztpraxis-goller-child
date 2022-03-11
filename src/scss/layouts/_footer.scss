@@ -5,6 +5,13 @@
     font-size: 1rem!important;
     z-index: 3;
   }
+  .footer-item {
+    @include media-breakpoint-down(md) {
+      padding-bottom: 2.5rem;
+      &:not(:last-of-type), {
+      }
+    }
+  }
   .footer-about,
   .footer-nav,
   .footer-social {
@@ -12,9 +19,9 @@
   }
   .footer-logo {
     img {
-      width: 100%;
+      height: 70px;
+      width: auto;
       max-width: 265px;
-      height: auto;
     }
   }
   .footer-menu {
@@ -159,5 +166,45 @@
   }
   .sidebar-address .sidebar-icon {
     background-image: url("data:image/svg+xml,%3Csvg id='address' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 50'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Cg id='address' data-name='address'%3E%3Cg id='Group_124' data-name='Group 124'%3E%3Cg id='Group_123' data-name='Group 123'%3E%3Cpath id='Path_44' data-name='Path 44' class='cls-1' d='M13,26.68h0a14.77,14.77,0,1,1,24-.23c-.12.23.69-1-12.12,18.86Zm26.65,1.61A17.54,17.54,0,0,0,43,17.94a18,18,0,0,0-36,0,17.61,17.61,0,0,0,3.46,10.58l13.27,20.7a1.56,1.56,0,0,0,2.13.57l.18-.11c.23-.12.34-.35.46-.46C26.27,49.22,39.42,28.63,39.65,28.29Z' transform='translate(-7 0)'/%3E%3C/g%3E%3C/g%3E%3Cg id='Group_126' data-name='Group 126'%3E%3Cg id='Group_125' data-name='Group 125'%3E%3Cpath id='Path_45' data-name='Path 45' class='cls-1' d='M24.9,9.8A8.17,8.17,0,1,0,33.09,18h0A8.21,8.21,0,0,0,24.9,9.8Zm0,13.11a4.95,4.95,0,1,1,5-4.95h0A4.92,4.92,0,0,1,25,22.91Z' transform='translate(-7 0)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+
+.footer {
+  padding: 20vh 0 0 0;
+  @include media-breakpoint-down(lg) {
+      padding: 14vh 0 0 0;
+  }
+  @include media-breakpoint-down(sm) {
+      padding: 8vh 0 0 0;
+  }
+}
+.footer-divider-wrap-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: translate(0, -25%);
+  #footer-divider-1 {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    fill: $white;
+  }
+}
+.footer-divider-wrap-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: translate(0, 25%);
+  #footer-divider-2 {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    fill: $softgrey;
   }
 }

@@ -3,7 +3,7 @@
 	.top-button-wrap {
 		position: relative;
 		z-index: 1;
-		background-color: $darkgrey;
+		background-color: rgba($darkgrey, 1);
 		padding: 14px 13px;
 		border-radius: 10px 0 0 10px;
 		overflow: hidden;

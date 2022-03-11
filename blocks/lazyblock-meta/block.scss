@@ -1,0 +1,25 @@
+.meta {
+  position: relative;
+  display: block;
+  margin-top: 15vh;
+  .meta-content {
+    margin-top: 1rem;
+    h4 {
+      margin-bottom: 1.5rem;
+    }
+    h5 {
+      margin-bottom: .75rem;
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+    a {
+      border: none;
+      text-decoration: none;
+    }
+    img {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -15,86 +15,26 @@
 <footer class="footer">
 
   <!-- shape divider -->
-
-    <style>
-    .shapedividers-wrapper {
-      position: absolute;
-      top: 0;
-      height: 100%;
-      width: 100%;
-    }
-    .shapedividers_com-6261 {
-      position: absolute;
-      overflow: hidden;
-      top: 0%;
-      height: 100%;
-      width: 100%;
-    }
-    /*
-    generated css starts here
-    https://shapedividers.com/
-    */
-    .shapedividers_com-6261{
-    overflow:hidden;
-    position:relative;
-    }
-    .shapedividers_com-6261::before{
-    content:'';
-    font-family:'shape divider from ShapeDividers.com';
-    position: absolute;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
-    top: -1px;
-    z-index: 3;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    background-size: 100% 117px;
-    background-position: 50% 0%;
-    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" fill="%23ffffff"/></svg>');
-    }
-
-    @media (min-width:768px){
-    .shapedividers_com-6261::before{
-    background-size: 100% 149px;
-    background-position: 50% 0%;
-    }
-    }
-
-    @media (min-width:1025px){
-    .shapedividers_com-6261::before{
-    bottom: -0.1vw;
-    left: -0.1vw;
-    right: -0.1vw;
-    top: -0.1vw;
-    background-size: 112% 195px;
-    background-position: 50% 0%;
-    transform: rotateY(180deg);
-    }
-    }
-    @media (min-width:2100px){
-    .shapedividers_com-6261::before{
-    background-size: 112% calc(2vw + 195px);
-    }
-    }
-    </style>
-    <div class="shapedividers-wrapper">
-        <!--<div class="shapedividers_com-6261"></div>-->
-    </div>
+  <div class="footer-divider footer-divider-wrap-2">
+        <svg id="footer-divider-2" data-name="footer-divider-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 130"><path d="M391.1,521v71.5c355.2-23.49,673.1,119,1275.3,27.47,225.9-34.34,448.6-27.17,644.7-2.19V521Z" transform="translate(-391.1 -520.96)"/></svg>
+  </div>
+  <div class="footer-divider footer-divider-wrap-1">
+    <svg id="footer-divider-1" data-name="footer-divider-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 130"><path d="M591.5,506.1v90.5c193.5-26.7,419.4-35.3,648,4.2,608.1,105,900.7-65,1272,9.6V506.1Z" transform="translate(-591.5 -506.1)"/></svg>
+  </div>
 
 
-  <div class="bootscore-footer pt-5 pb-3">
+  <div class="bootscore-footer pt-xl-5 pb-3">
     <div class="container">
 
       <div class="row">
 
         <!-- Footer 1 Widget -->
-        <div class="col-md-6 col-lg-4 footer-logo d-flex">
-          <a class="align-self-center mb-5" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo-bw.svg" alt="logo" class="logo"></a>
+        <div class="col-md-6 col-lg-4 footer-item footer-logo d-flex">
+          <a class="align-self-sm-center mb-md-5" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo-bw.svg" alt="logo" class="logo"></a>
         </div>
 
         <!-- Footer 2 Widget -->
-        <div class="col-md-6 col-lg-4 footer-about">
+        <div class="col-md-6 col-lg-4 footer-item footer-about">
           <p class="mb-4">
             <?php if( get_field("footer-about-headline") ): ?>
               <span class="text-white"><?php the_field("footer-about-headline");?></span><br>
@@ -109,7 +49,7 @@
         </div>
 
         <!-- Footer 3 Widget -->
-        <div class="col-md-6 col-lg-2 footer-nav">
+        <div class="col-md-6 col-lg-2 footer-item footer-nav">
 
           <p class="mb-4">
             <?php if( get_field("footer-nav-headline") ): ?>
@@ -120,7 +60,7 @@
           wp_nav_menu(array(
             'theme_location' => 'footer-menu',
             'container' => false,
-            'menu_class' => 'footer-menu',
+            'menu_class' => 'footer-menu mb-sm-3',
             'fallback_cb' => '__return_false',
             'items_wrap' => '<ul id="footer-menu" class="nav %2$s">%3$s</ul>',
             'depth' => 1,
@@ -131,32 +71,33 @@
         </div>
 
         <!-- Footer 4 Widget -->
-        <div class="col-md-6 col-lg-2 footer-social">
-
-          <p class="mb-4">
-            <?php if( get_field("footer-social-headline") ): ?>
-              <span class="text-white"><?php the_field("footer-social-headline");?></span>
-            <?php endif; ?>
-          </p>
-          <div class="social-wrap">
-            <?php
-            $image = get_field('footer-social-icon-1-src');
-            $link = get_field('footer-social-icon-1-link');
-            if( $image ): ?>
-                <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
-            <?php endif; ?>
-            <?php
-            $image = get_field('footer-social-icon-2-src');
-            $link = get_field('footer-social-icon-2-link');
-            if( $image ): ?>
-                <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
-            <?php endif; ?>
-            <?php
-            $image = get_field('footer-social-icon-3-src');
-            $link = get_field('footer-social-icon-3-link');
-            if( $image ): ?>
-                <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
-            <?php endif; ?>
+        <div class="col-md-6 col-lg-2 footer-item footer-social d-flex">
+          <div class="align-self-md-center align-self-lg-start">
+            <p class="mb-4">
+              <?php if( get_field("footer-social-headline") ): ?>
+                <span class="text-white"><?php the_field("footer-social-headline");?></span>
+              <?php endif; ?>
+            </p>
+            <div class="social-wrap">
+              <?php
+              $image = get_field('footer-social-icon-1-src');
+              $link = get_field('footer-social-icon-1-link');
+              if( $image ): ?>
+                  <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
+              <?php endif; ?>
+              <?php
+              $image = get_field('footer-social-icon-2-src');
+              $link = get_field('footer-social-icon-2-link');
+              if( $image ): ?>
+                  <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
+              <?php endif; ?>
+              <?php
+              $image = get_field('footer-social-icon-3-src');
+              $link = get_field('footer-social-icon-3-link');
+              if( $image ): ?>
+                  <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
+              <?php endif; ?>
+            </div>
           </div>
 
 
@@ -172,10 +113,10 @@
 <div class="info bg-darkergrey py-2">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 text-left">
+      <div class="col-lg-6 text-center text-md-start">
         <p class="mb-0">&copy;&nbsp;<?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></p>
       </div>
-      <div class="col-lg-6 text-end meta">
+      <div class="col-lg-6 text-center text-md-end footer-meta">
         <a href="<?php echo esc_url( get_permalink( get_option( 'wp_page_for_privacy_policy' ) ) ); ?>">Datenschutz</a>
         <a href="<?php $imprint_url = get_permalink('451'); echo $imprint_url; ?>">Impressum</a>
       </div>
@@ -193,7 +134,7 @@
 </div>
 
 <!-- sidebar -->
-<aside class="sidebar">
+<aside class="sidebar d-none d-sm-block">
 
   <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone");?>">
     <div class="sidebar-btn sidebar-phone">

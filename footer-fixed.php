@@ -15,10 +15,10 @@
 <div class="footer-fixed info py-2">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 text-left">
+      <div class="col-lg-6 text-center text-lg-start">
         <p class="mb-0">&copy;&nbsp;<?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></p>
       </div>
-      <div class="col-lg-6 text-end meta">
+      <div class="col-lg-6 text-center text-lg-end footer-meta">
         <a href="<?php echo esc_url( get_permalink( get_option( 'wp_page_for_privacy_policy' ) ) ); ?>">Datenschutz</a>
         <a href="<?php $imprint_url = get_permalink('451'); echo $imprint_url; ?>">Impressum</a>
       </div>

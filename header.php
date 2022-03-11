@@ -46,13 +46,12 @@
           <div class="container">
 
             <!-- Navbar Brand -->
-            <a class="navbar-brand xs d-md-none" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo-sm.svg" alt="logo" class="logo xs"></a>
+            <a class="navbar-brand xs d-md-none" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo.svg" alt="logo" class="logo xs"></a>
             <a class="navbar-brand md d-none d-md-block" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo.svg" alt="logo" class="logo md"></a>
 
             <!-- Offcanvas Navbar -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">
-              <div class="offcanvas-header bg-light">
-                <span class="h5 mb-0"><?php esc_html_e('Menu', 'bootscore'); ?></span>
+              <div class="offcanvas-header">
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
@@ -63,12 +62,27 @@
                   'container' => false,
                   'menu_class' => '',
                   'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
+                  'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav bootscore-navbar-mobile ms-auto %2$s">%3$s</ul>',
                   'depth' => 2,
                   'walker' => new bootstrap_5_wp_nav_menu_walker()
                 ));
                 ?>
                 <!-- Bootstrap 5 Nav Walker Main Menu End -->
+
+
+                <!-- Contactbar -->
+                <div class="menu-contactbar">
+                  <a class="menu-contactbar-item" href="tel:<?php the_field("sidebar-phone");?>">
+                    <div class="menu-contactbar-icon icon-phone"></div>
+                  </a>
+                  <a class="menu-contactbar-item" href="mailto:<?php the_field("sidebar-email");?>">
+                    <div class="menu-contactbar-icon icon-email"></div>
+                  </a>
+                  <a class="menu-contactbar-item" href="<?php the_field("sidebar-address-url"); ?>" target="_blank">
+                    <div class="menu-contactbar-icon icon-address"></div>
+                  </a>
+                </div>
+
               </div>
             </div>
 
@@ -84,22 +98,8 @@
                 <?php endif; ?>
               </div>
 
-              <!-- Searchform Large -->
-              <div class="d-none d-lg-block ms-1 ms-md-2 top-nav-search-lg">
-                <?php if (is_active_sidebar('top-nav-search')) : ?>
-                  <div>
-                    <?php dynamic_sidebar('top-nav-search'); ?>
-                  </div>
-                <?php endif; ?>
-              </div>
-
-              <!-- Search Toggler Mobile -->
-              <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2 top-nav-search-md" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-search" aria-expanded="false" aria-controls="collapse-search">
-                <i class="fas fa-search"></i>
-              </button>
-
               <!-- Navbar Toggler -->
-              <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
+              <button class="btn burgermenu btn-outline-secondary d-lg-none ms-1 ms-md-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
                 <i class="fas fa-bars"></i>
               </button>
 
