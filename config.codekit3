@@ -1047,6 +1047,14 @@
       "oAP" : "\/header-fixed.php",
       "oF" : 0
     },
+    "\/header-meta.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header-meta.php",
+      "oF" : 0
+    },
     "\/header.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3631,6 +3639,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page-blank-fixed.php",
+      "oF" : 0
+    },
+    "\/page-blank-meta.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-blank-meta.php",
       "oF" : 0
     },
     "\/page-blank-without-container.php" : {

@@ -36,13 +36,13 @@
         <!-- Footer 2 Widget -->
         <div class="col-md-6 col-lg-4 footer-item footer-about">
           <p class="mb-4">
-            <?php if( get_field("footer-about-headline") ): ?>
-              <span class="text-white"><?php the_field("footer-about-headline");?></span><br>
+            <?php if( get_field("footer-about-headline","option") ): ?>
+              <span class="text-white"><?php the_field("footer-about-headline","option");?></span><br>
             <?php endif; ?>
           </p>
           <p>
-            <?php if( get_field("footer-about-txt") ): ?>
-              <?php the_field("footer-about-txt");?>
+            <?php if( get_field("footer-about-txt","option") ): ?>
+              <?php the_field("footer-about-txt","option");?>
             <?php endif; ?>
           </p>
 
@@ -52,8 +52,8 @@
         <div class="col-md-6 col-lg-2 footer-item footer-nav">
 
           <p class="mb-4">
-            <?php if( get_field("footer-nav-headline") ): ?>
-              <span class="text-white"><?php the_field("footer-nav-headline");?></span><br>
+            <?php if( get_field("footer-nav-headline","option") ): ?>
+              <span class="text-white"><?php the_field("footer-nav-headline","option");?></span><br>
             <?php endif; ?>
           </p>
           <?php
@@ -74,26 +74,26 @@
         <div class="col-md-6 col-lg-2 footer-item footer-social d-flex">
           <div class="align-self-md-center align-self-lg-start">
             <p class="mb-4">
-              <?php if( get_field("footer-social-headline") ): ?>
-                <span class="text-white"><?php the_field("footer-social-headline");?></span>
+              <?php if( get_field("footer-social-headline","option") ): ?>
+                <span class="text-white"><?php the_field("footer-social-headline","option");?></span>
               <?php endif; ?>
             </p>
             <div class="social-wrap">
               <?php
-              $image = get_field('footer-social-icon-1-src');
-              $link = get_field('footer-social-icon-1-link');
+              $image = get_field('footer-social-icon-1-src',"option");
+              $link = get_field('footer-social-icon-1-link',"option");
               if( $image ): ?>
                   <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
               <?php endif; ?>
               <?php
-              $image = get_field('footer-social-icon-2-src');
-              $link = get_field('footer-social-icon-2-link');
+              $image = get_field('footer-social-icon-2-src',"option");
+              $link = get_field('footer-social-icon-2-link',"option");
               if( $image ): ?>
                   <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
               <?php endif; ?>
               <?php
-              $image = get_field('footer-social-icon-3-src');
-              $link = get_field('footer-social-icon-3-link');
+              $image = get_field('footer-social-icon-3-src,"option"');
+              $link = get_field('footer-social-icon-3-link,"option"');
               if( $image ): ?>
                   <a class="social-icon" target="_blank" href="<?php echo esc_url( $link ); ?>"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
               <?php endif; ?>
@@ -118,7 +118,12 @@
       </div>
       <div class="col-lg-6 text-center text-md-end footer-meta">
         <a href="<?php echo esc_url( get_permalink( get_option( 'wp_page_for_privacy_policy' ) ) ); ?>">Datenschutz</a>
-        <a href="<?php $imprint_url = get_permalink('451'); echo $imprint_url; ?>">Impressum</a>
+        <!-- impressum -->
+        <?php if (file_exists('testing.txt')) { ?>
+          <a href="<?php $imprint_url = get_permalink('451'); echo $imprint_url; ?>">Impressum</a>
+        <?php } else {?>
+          <a href="<?php $imprint_url = get_permalink('182'); echo $imprint_url; ?>">Impressum</a>
+        <?php } ?>
       </div>
     </div>
   </div>
@@ -136,33 +141,33 @@
 <!-- sidebar -->
 <aside class="sidebar d-none d-sm-block">
 
-  <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone");?>">
+  <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone","option");?>">
     <div class="sidebar-btn sidebar-phone">
       <div class="sidebar-icon-wrap">
         <div class="sidebar-icon"></div>
       </div>
-      <div class="sidebar-field"><?php the_field("sidebar-phone");?></div>
+      <div class="sidebar-field"><?php the_field("sidebar-phone","option");?></div>
     </div>
   </a>
 
-  <a class="sidebar-link" href="mailto:<?php the_field("sidebar-email");?>">
+  <a class="sidebar-link" href="mailto:<?php the_field("sidebar-email","option");?>">
     <div class="sidebar-btn sidebar-email">
       <div class="sidebar-icon-wrap">
         <div class="sidebar-icon"></div>
       </div>
-      <div class="sidebar-field"><?php the_field("sidebar-email");?></div>
+      <div class="sidebar-field"><?php the_field("sidebar-email","option");?></div>
     </div>
   </a>
 
   <?php
-  $addressurl = get_field('sidebar-address-url');
+  $addressurl = get_field("sidebar-address-url","option");
   ?>
   <a class="sidebar-link" href="<?php echo esc_url( $addressurl ); ?>" target="_blank">
     <div class="sidebar-btn sidebar-address">
       <div class="sidebar-icon-wrap">
         <div class="sidebar-icon"></div>
       </div>
-      <div class="sidebar-field"><?php the_field("sidebar-address");?></div>
+      <div class="sidebar-field"><?php the_field("sidebar-address","option");?></div>
     </div>
   </a>
 

@@ -20,7 +20,12 @@
       </div>
       <div class="col-lg-6 text-center text-lg-end footer-meta">
         <a href="<?php echo esc_url( get_permalink( get_option( 'wp_page_for_privacy_policy' ) ) ); ?>">Datenschutz</a>
-        <a href="<?php $imprint_url = get_permalink('451'); echo $imprint_url; ?>">Impressum</a>
+        <!-- impressum -->
+        <?php if (file_exists('testing.txt')) { ?>
+          <a href="<?php $imprint_url = get_permalink('451'); echo $imprint_url; ?>">Impressum</a>
+        <?php } else {?>
+          <a href="<?php $imprint_url = get_permalink('182'); echo $imprint_url; ?>">Impressum</a>
+        <?php } ?>
       </div>
     </div>
   </div>
@@ -38,33 +43,33 @@
 <!-- sidebar -->
 <aside class="sidebar">
 
-  <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone");?>">
+  <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone","option");?>">
     <div class="sidebar-btn sidebar-phone">
       <div class="sidebar-icon-wrap">
         <div class="sidebar-icon"></div>
       </div>
-      <div class="sidebar-field"><?php the_field("sidebar-phone");?></div>
+      <div class="sidebar-field"><?php the_field("sidebar-phone","option");?></div>
     </div>
   </a>
 
-  <a class="sidebar-link" href="mailto:<?php the_field("sidebar-email");?>">
+  <a class="sidebar-link" href="mailto:<?php the_field("sidebar-email","option");?>">
     <div class="sidebar-btn sidebar-email">
       <div class="sidebar-icon-wrap">
         <div class="sidebar-icon"></div>
       </div>
-      <div class="sidebar-field"><?php the_field("sidebar-email");?></div>
+      <div class="sidebar-field"><?php the_field("sidebar-email","option");?></div>
     </div>
   </a>
 
   <?php
-  $addressurl = get_field('sidebar-address-url');
+  $addressurl = get_field("sidebar-address-url","option");
   ?>
   <a class="sidebar-link" href="<?php echo esc_url( $addressurl ); ?>" target="_blank">
     <div class="sidebar-btn sidebar-address">
       <div class="sidebar-icon-wrap">
         <div class="sidebar-icon"></div>
       </div>
-      <div class="sidebar-field"><?php the_field("sidebar-address");?></div>
+      <div class="sidebar-field"><?php the_field("sidebar-address","option");?></div>
     </div>
   </a>
 

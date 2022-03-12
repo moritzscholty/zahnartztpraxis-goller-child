@@ -112,3 +112,23 @@ define( 'MY_BPL_PATH', get_stylesheet_directory() . '/inc/bpl/' );
 define( 'MY_BPL_URL', get_stylesheet_directory_uri() . '/inc/bpl/' );
 
 require_once( MY_BPL_PATH . 'index.php' );
+
+// acf optionspage
+
+if( function_exists('acf_add_options_page') ) {
+
+  acf_add_options_page(array(
+		'page_title' 	=> 'Meta Settings',
+		'menu_title'	=> 'Meta Settings',
+		'menu_slug' 	=> 'global-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Template Settings',
+		'menu_title'	=> 'Template Settings',
+		'parent_slug'	=> 'global-settings',
+	));
+
+}

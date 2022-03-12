@@ -72,13 +72,13 @@
 
                 <!-- Contactbar -->
                 <div class="menu-contactbar">
-                  <a class="menu-contactbar-item" href="tel:<?php the_field("sidebar-phone");?>">
+                  <a class="menu-contactbar-item" href="tel:<?php the_field("sidebar-phone","option");?>">
                     <div class="menu-contactbar-icon icon-phone"></div>
                   </a>
-                  <a class="menu-contactbar-item" href="mailto:<?php the_field("sidebar-email");?>">
+                  <a class="menu-contactbar-item" href="mailto:<?php the_field("sidebar-email","option");?>">
                     <div class="menu-contactbar-icon icon-email"></div>
                   </a>
-                  <a class="menu-contactbar-item" href="<?php the_field("sidebar-address-url"); ?>" target="_blank">
+                  <a class="menu-contactbar-item" href="<?php the_field("sidebar-address-url","option"); ?>" target="_blank">
                     <div class="menu-contactbar-icon icon-address"></div>
                   </a>
                 </div>

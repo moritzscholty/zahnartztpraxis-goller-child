@@ -39,7 +39,7 @@
   .social-wrap {
     .social-icon {
       &:not(:last-child) {
-        margin-right: .75rem;
+        margin-right: .8rem;
       }
     }
     img {
@@ -170,7 +170,10 @@
 }
 
 .footer {
-  padding: 20vh 0 0 0;
+  padding: 15vh 0 0 0;
+  @media screen and (min-width: 1920px) {
+      padding: 25vh 0 0 0!important;
+  }
   @include media-breakpoint-down(lg) {
       padding: 14vh 0 0 0;
   }

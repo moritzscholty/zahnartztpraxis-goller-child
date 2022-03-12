@@ -62,7 +62,7 @@
                   'container' => false,
                   'menu_class' => 'detail-nav-item',
                   'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav bootscore-navbar-mobile detail-nav ms-auto %2$s">%3$s</ul>',
+                  'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav bootscore-navbar-mobile meta-nav ms-auto %2$s">%3$s</ul>',
                   'depth' => 2,
                   'walker' => new bootstrap_5_wp_nav_menu_walker()
                 ));

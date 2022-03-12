@@ -18,7 +18,8 @@ jQuery(function ($) {
 
   });
 
-    // additional parameters detail nav
+    // additional parameters nav
+
     if ($("#bootscore-navbar").hasClass("detail-nav")) {
       $('a[href*="service"]').addClass( "active" );
 
@@ -28,6 +29,14 @@ jQuery(function ($) {
         $(this).attr("href", url + value);
        });
 
+    }
+    if ($("#bootscore-navbar").hasClass("meta-nav")) {
+
+      $(".nav-link").click(function () {
+        var url = window.location.origin;
+        var value = $(this).attr("href");
+        $(this).attr("href", url + value);
+       });
     }
 
     // register rellax.js

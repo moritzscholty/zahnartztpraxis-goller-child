@@ -23,11 +23,11 @@
       </div>
       <div class="col-lg-6">
 
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb position-relative">
-              <li class="breadcrumb-item"><a href="<?php echo esc_url(home_url()); ?>">Home</a></li>
-              <li class="breadcrumb-item"><a href="<?php echo esc_url(home_url()); ?>#service">Leistungen</a></li>
-              <li class="breadcrumb-item active" aria-current="page"><?php echo get_the_title(); ?></li>
+          <nav class="breadcrumb-detail-wrap">
+            <ol class="breadcrumb-detail position-relative">
+              <li class="breadcrumb-detail-item"><a href="<?php echo esc_url(home_url()); ?>">Home</a></li>
+              <li class="breadcrumb-detail-item"><a href="<?php echo esc_url(home_url()); ?>#service">Leistungen</a></li>
+              <li class="breadcrumb-detail-item active" aria-current="page"><?php echo get_the_title(); ?></li>
             </ol>
           </nav>
 
