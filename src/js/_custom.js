@@ -19,24 +19,42 @@ jQuery(function ($) {
   });
 
     // additional parameters nav
-
     if ($("#bootscore-navbar").hasClass("detail-nav")) {
       $('a[href*="service"]').addClass( "active" );
 
-      $(".nav-link").click(function () {
-        var url = window.location.origin;
-        var value = $(this).attr("href");
-        $(this).attr("href", url + value);
-       });
+
+
+      var formvar=1;
+      $('.nav-link').click(function() {
+        if(formvar==1)
+        {
+          var url = window.location.origin;
+          var value = $(this).attr("href");
+          $(this).attr("href", url + value);
+
+        setTimeout(function(){formi=1}, 5000);
+        formvar=0;
+        }
+        //else alert("no dbl clicking");
+      });
 
     }
     if ($("#bootscore-navbar").hasClass("meta-nav")) {
 
-      $(".nav-link").click(function () {
-        var url = window.location.origin;
-        var value = $(this).attr("href");
-        $(this).attr("href", url + value);
-       });
+      var formvar=1;
+      $('.nav-link').click(function() {
+        if(formvar==1)
+        {
+          var url = window.location.origin;
+          var value = $(this).attr("href");
+          $(this).attr("href", url + value);
+
+        setTimeout(function(){formi=1}, 5000);
+        formvar=0;
+        }
+        //else alert("no dbl clicking");
+      });
+      
     }
 
     // register rellax.js
