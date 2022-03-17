@@ -91,10 +91,12 @@
 .svg-divider-wrap {
   position: fixed;
   left: 45%;
-  // because of nav
-  top: 100px;
+  top: 100px; // because of nav
   transform: translate(-50%, 0);
   width: 250px;
+  @media only screen and (min-width: 2220px) {
+    left: 46%;
+  }
   .svg-divider {
     display: inline-block;
     float: left;

@@ -29,7 +29,7 @@
                   <img class="service-listing-icon" src="<?php echo esc_url( $inner['service-listing-icon']['url'] ); ?>" alt="<?php echo esc_attr( $attributes['service-listing-icon']['alt'] ); ?>">
                 </div>
             <?php endif; ?>
-            <h3 class="service-listing-title"><?php echo $inner['service-listing-title']; ?></h3>
+            <h3 class="service-listing-title text-center"><?php echo $inner['service-listing-title']; ?></h3>
             <a class="service-listing-button service-listing-button-home btn-default position-absolute top-100 start-50 translate-middle px-4 text-center" href="<?php echo esc_url( $inner['service-listing-button'] ); ?>"><span>mehr erfahren</span></a>
           </div>
         </div>

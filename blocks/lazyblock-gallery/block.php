@@ -23,9 +23,9 @@
     </div>
 
     <!-- gallery images -->
-    <div class="container py-5">
+    <div class="container pt-5 pb-2">
 
-      <div class="row row-masonry gx-3 gy-3" data-masonry='{"percentPosition": true }'>
+      <div class="row row-masonry gx-3 gy-3">
 
         <?php foreach( $attributes['gallery-images'] as $image ): ?>
 
@@ -38,6 +38,8 @@
         <?php endforeach; ?>
 
       </div>
+
+      <!--<a class="service-listing-button service-listing-button-back btn-default px-4 text-center position-relative" target="">mehr laden</a>-->
 
 
 

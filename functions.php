@@ -117,18 +117,33 @@ require_once( MY_BPL_PATH . 'index.php' );
 
 if( function_exists('acf_add_options_page') ) {
 
+  // menutitle
   acf_add_options_page(array(
-		'page_title' 	=> 'Meta Settings',
-		'menu_title'	=> 'Meta Settings',
-		'menu_slug' 	=> 'global-settings',
+		'page_title' 	=> 'Theme',
+		'menu_slug' 	=> 'theme',
 		'capability'	=> 'edit_posts',
-		'redirect'		=> false
+    'icon_url' => 'dashicons-admin-site',
+    'position' => 59,
+		'redirect'		=> true
+	));
+
+  // submenus
+  acf_add_options_sub_page(array(
+		'page_title' 	=> 'Sidebar',
+		'menu_title'	=> 'Sidebar',
+		'parent_slug'	=> 'theme',
 	));
 
 	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Template Settings',
-		'menu_title'	=> 'Template Settings',
-		'parent_slug'	=> 'global-settings',
+		'page_title' 	=> 'Template',
+		'menu_title'	=> 'Template',
+		'parent_slug'	=> 'theme',
+	));
+
+  acf_add_options_sub_page(array(
+		'page_title' 	=> '404',
+		'menu_title'	=> '404',
+		'parent_slug'	=> 'theme',
 	));
 
 }

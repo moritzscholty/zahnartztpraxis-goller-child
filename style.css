@@ -13616,6 +13616,9 @@ p a:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+.site-header .offcanvas:not(.show) {
+  box-shadow: none;
+}
 .site-header .fixed-top {
   transition: background-color ease-in-out 0.2s;
   --bs-bg-opacity: 0.85;
@@ -15738,6 +15741,74 @@ main {
   }
 }
 
+.page-404 {
+  position: relative;
+  display: block;
+  margin-top: 15vh;
+}
+
+#cookie-law-info-bar {
+  padding: 1rem 3rem !important;
+}
+
+.cli-bar-container .cli-bar-message, .cli-modal-content .cli-bar-message, .cli-modal-footer .cli-bar-message {
+  color: #575756 !important;
+}
+.cli-bar-container a.cli-privacy-readmore, .cli-modal-content a.cli-privacy-readmore, .cli-modal-footer a.cli-privacy-readmore {
+  transition: color 0.05s ease-in-out !important;
+}
+.cli-bar-container a.cli-privacy-readmore:hover, .cli-modal-content a.cli-privacy-readmore:hover, .cli-modal-footer a.cli-privacy-readmore:hover {
+  color: #cbe09c !important;
+}
+.cli-bar-container a.cli_setting_save_button, .cli-modal-content a.cli_setting_save_button, .cli-modal-footer a.cli_setting_save_button {
+  background-color: #cbe09c !important;
+}
+.cli-bar-container a.cli-plugin-button, .cli-bar-container a.cli_setting_save_button, .cli-modal-content a.cli-plugin-button, .cli-modal-content a.cli_setting_save_button, .cli-modal-footer a.cli-plugin-button, .cli-modal-footer a.cli_setting_save_button {
+  position: relative !important;
+  border-radius: 25px !important;
+  text-transform: uppercase !important;
+  transition: background-color 0.3s ease-in-out !important;
+  color: #fff !important;
+  transition: none !important;
+}
+.cli-bar-container a.cli-plugin-button:after, .cli-bar-container a.cli_setting_save_button:after, .cli-modal-content a.cli-plugin-button:after, .cli-modal-content a.cli_setting_save_button:after, .cli-modal-footer a.cli-plugin-button:after, .cli-modal-footer a.cli_setting_save_button:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  transition: background-color 0.3s ease-in-out;
+}
+.cli-bar-container a.cli-plugin-button:hover, .cli-bar-container a.cli_setting_save_button:hover, .cli-modal-content a.cli-plugin-button:hover, .cli-modal-content a.cli_setting_save_button:hover, .cli-modal-footer a.cli-plugin-button:hover, .cli-modal-footer a.cli_setting_save_button:hover {
+  color: inherit;
+  background-color: inherit;
+  opacity: 1;
+}
+.cli-bar-container a.cli-plugin-button:hover:after, .cli-bar-container a.cli_setting_save_button:hover:after, .cli-modal-content a.cli-plugin-button:hover:after, .cli-modal-content a.cli_setting_save_button:hover:after, .cli-modal-footer a.cli-plugin-button:hover:after, .cli-modal-footer a.cli_setting_save_button:hover:after {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.cli-bar-container .cookielawinfo-row-cat-table thead th, .cli-modal-content .cookielawinfo-row-cat-table thead th, .cli-modal-footer .cookielawinfo-row-cat-table thead th {
+  background-color: #a8a8a7 !important;
+}
+.cli-bar-container .cli-bar-message, .cli-modal-content .cli-bar-message, .cli-modal-footer .cli-bar-message {
+  line-height: 1.5rem !important;
+}
+.cli-bar-container .cli-switch input:checked + .cli-slider, .cli-modal-content .cli-switch input:checked + .cli-slider, .cli-modal-footer .cli-switch input:checked + .cli-slider {
+  background-color: #cbe09c !important;
+}
+.cli-bar-container .cli_settings_button, .cli-modal-content .cli_settings_button, .cli-modal-footer .cli_settings_button {
+  background-color: #a8a8a7 !important;
+}
+.cli-bar-container .wt-cli-accept-all-btn, .cli-modal-content .wt-cli-accept-all-btn, .cli-modal-footer .wt-cli-accept-all-btn {
+  background-color: #cbe09c !important;
+}
+
 @font-face {
   font-family: "Lato";
   font-display: swap;
@@ -16545,6 +16616,24 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
   left: 0;
   transform: translateX(-50%) translateY(-50%);
 }
+@media only screen and (min-width: 2220px) {
+  .headvisual .wave-container {
+    width: 135%;
+  }
+}
+@media only screen and (min-width: 2880px) {
+  .headvisual .wave-container {
+    width: 170%;
+  }
+  .headvisual .wave-container .wave {
+    animation: none !important;
+  }
+}
+@media only screen and (min-width: 3300px) {
+  .headvisual .wave-container {
+    display: none;
+  }
+}
 .headvisual .wave-container .wave {
   position: absolute;
   top: -198px;
@@ -16971,6 +17060,7 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
 .service .service-listing-title {
   margin-top: 5rem;
   font-size: 1.25rem;
+  line-height: 1.65rem;
 }
 .service .service-listing-button {
   min-width: 200px;
@@ -17004,6 +17094,16 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
 }
 .gallery .gallery-image {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.02);
+}
+.gallery .hidden {
+  visibility: hidden;
+  width: 0px !important;
+  height: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.gallery #load-more {
+  border: none;
 }
 
 .img-wrap {
@@ -17256,6 +17356,11 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
   top: 100px;
   transform: translate(-50%, 0);
   width: 250px;
+}
+@media only screen and (min-width: 2220px) {
+  .svg-divider-wrap {
+    left: 46%;
+  }
 }
 .svg-divider-wrap .svg-divider {
   display: inline-block;

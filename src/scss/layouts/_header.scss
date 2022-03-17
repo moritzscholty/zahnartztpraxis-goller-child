@@ -1,11 +1,13 @@
 .site-header {
+  .offcanvas:not(.show) {
+    box-shadow: none;
+  }
   // defaults
   .fixed-top {
     transition: background-color ease-in-out 0.2s;
     --bs-bg-opacity: 0.85;
     box-shadow: $box-shadow-header;
   }
-
   .navbar-brand {
     img {
       transition: height ease-in-out 0.2s;

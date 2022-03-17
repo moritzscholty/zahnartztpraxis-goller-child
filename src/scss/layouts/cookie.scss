@@ -1,0 +1,67 @@
+// for CookieYes plugin https://wordpress.org/plugins/cookie-law-info/
+
+
+
+#cookie-law-info-bar {
+  padding: 1rem 3rem!important;
+}
+
+.cli-bar-container, .cli-modal-content, .cli-modal-footer {
+  .cli-bar-message {
+    color: $darkgrey!important;
+  }
+  a.cli-privacy-readmore {
+    transition: color 0.05s ease-in-out!important;
+    &:hover {
+      color: $primary!important;
+    }
+  }
+  a.cli_setting_save_button {
+    background-color: $primary!important;
+  }
+  a.cli-plugin-button, a.cli_setting_save_button {
+    position: relative!important;
+    border-radius: 25px!important;
+    text-transform: uppercase!important;
+    transition: background-color 0.3s ease-in-out!important;
+    color: $white!important;
+    transition: none!important;
+    &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+      background-color: rgba($black, 0.00);
+      border-radius: 25px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    &:hover {
+      color: inherit;
+      background-color: inherit;
+      opacity: 1;
+      &:after {
+        background-color: rgba($black, 0.05);
+      }
+    }
+  }
+  .cookielawinfo-row-cat-table thead th {
+    background-color: $secondary!important;
+  }
+  .cli-bar-message {
+    line-height: 1.5rem!important;
+  }
+  .cli-switch input:checked + .cli-slider {
+    background-color: $primary!important;
+  }
+  .cli_settings_button {
+    background-color: $secondary!important;
+  }
+  .wt-cli-accept-all-btn {
+    background-color: $primary!important;
+  }
+}

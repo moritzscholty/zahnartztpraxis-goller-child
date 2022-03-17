@@ -52,8 +52,8 @@
     <!-- headvisual wave -->f
     <div class="wave-container ">
       <?php if ( $attributes['headvisual-waves'] ) : ?>
-        <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/placeholders/wave.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
-        <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/placeholders/wave-2.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
+        <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/dist/divider/wave-1.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
+        <div class="wave" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/dist/divider/wave-2.svg');<?php if ( $attributes['headvisual-waves-animate'] ) : ?><?php else: ?>animation:none;<?php endif; ?>"></div>
       <?php endif; ?>
     </div>
   </div>
