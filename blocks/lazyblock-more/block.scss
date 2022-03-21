@@ -1,0 +1,11 @@
+.detail {
+  &.more {
+    // breadcrumb
+    .breadcrumb-detail-item {
+      &:nth-of-type(2) {
+        color: $white;
+        background-color: $secondary;
+      }
+    }
+  }
+}

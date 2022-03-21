@@ -17446,6 +17446,11 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
   margin-top: 1.5rem;
 }
 
+.detail.more .breadcrumb-detail-item:nth-of-type(2) {
+  color: #fff;
+  background-color: #a8a8a7;
+}
+
 .meta {
   position: relative;
   display: block;

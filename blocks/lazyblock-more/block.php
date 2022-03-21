@@ -17,7 +17,7 @@
   </div>
 
   <!-- content -->
-  <div class="detail container">
+  <div class="detail more container">
     <div class="row">
       <div class="col-lg-6">
       </div>
@@ -25,8 +25,7 @@
 
           <nav class="breadcrumb-detail-wrap">
             <ol class="breadcrumb-detail position-relative">
-              <li class="breadcrumb-detail-item"><a href="<?php echo esc_url(home_url()); ?>">Home</a></li>
-              <li class="breadcrumb-detail-item"><a href="<?php echo esc_url(home_url()); ?>#service">Leistungen</a></li>
+              <li class="breadcrumb-detail-item"><a href="<?php echo esc_url(home_url()); ?>#intro">Home</a></li>
               <li class="breadcrumb-detail-item active" aria-current="page"><?php echo get_the_title(); ?></li>
             </ol>
           </nav>
