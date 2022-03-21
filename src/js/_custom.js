@@ -37,6 +37,24 @@ jQuery(function ($) {
       });
 
     }
+    if ($("#bootscore-navbar").hasClass("more-nav")) {
+      $('a[href*="about"]').addClass( "active" );
+
+      var formvar=1;
+      $('.nav-link').click(function() {
+        if(formvar==1)
+        {
+          var url = window.location.origin;
+          var value = $(this).attr("href");
+          $(this).attr("href", url + value);
+
+        setTimeout(function(){formi=1}, 5000);
+        formvar=0;
+        }
+        //else alert("no dbl clicking");
+      });
+
+    }
     if ($("#bootscore-navbar").hasClass("meta-nav")) {
 
       var formvar=1;

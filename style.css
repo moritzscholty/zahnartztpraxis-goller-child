@@ -13789,6 +13789,7 @@ p a:hover {
   }
 }
 main {
+  min-height: calc(100vh - 290px);
   max-width: 100%;
 }
 
@@ -13806,10 +13807,26 @@ main {
 .footer {
   position: relative;
   background-color: #454545;
+  margin-top: auto;
 }
 .footer * {
   font-size: 1rem !important;
   z-index: 3;
+}
+@media (max-width: 575.98px) {
+  .footer .bootscore-footer {
+    padding-top: 3rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .footer .bootscore-footer {
+    padding-top: 5rem !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .footer .bootscore-footer {
+    padding-top: 0 !important;
+  }
 }
 @media (max-width: 767.98px) {
   .footer .footer-item {
@@ -13819,7 +13836,7 @@ main {
 .footer .footer-about,
 .footer .footer-nav,
 .footer .footer-social {
-  line-height: 1.75;
+  line-height: 2.25;
 }
 .footer .footer-logo img {
   height: 70px;
@@ -13832,7 +13849,7 @@ main {
 .footer .footer-menu a {
   padding: 0;
   color: inherit;
-  line-height: 1.75;
+  line-height: 2.25;
   transition: color 0.3s ease-in-out;
 }
 .footer .footer-menu a:hover {
@@ -16928,7 +16945,7 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
   }
 }
 .custom .wp-block-table tr:nth-child(even) {
-  background: #e5e5e5;
+  background: #f2f2f2;
 }
 .custom .wp-block-table tr td:nth-child(1) {
   color: #000;
@@ -17045,7 +17062,7 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
 }
 .service .service-listing-icon-container {
   max-width: 180px;
-  background: #e5e5e5;
+  background: #d2d2d2;
   border-radius: 100%;
   z-index: 3;
 }
@@ -17055,7 +17072,7 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
   }
 }
 .service .service-listing-icon {
-  padding: 25%;
+  padding: 23%;
 }
 .service .service-listing-title {
   margin-top: 5rem;
@@ -17475,4 +17492,9 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
 .meta .meta-content img {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.text-dce {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }

@@ -22,7 +22,7 @@
   // icon
   .service-listing-icon-container {
     max-width: 180px;
-    background: $lightgrey;
+    background: #d2d2d2;
     border-radius: 100%;
     z-index: 3;
     @include media-breakpoint-down(sm) {
@@ -31,7 +31,7 @@
   }
 
   .service-listing-icon {
-    padding: 25%;
+    padding: 23%;
   }
 
   .service-listing-title {

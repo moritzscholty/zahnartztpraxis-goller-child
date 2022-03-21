@@ -23,14 +23,14 @@
   </div>
 
 
-  <div class="bootscore-footer pt-xl-5 pb-3">
+  <div class="bootscore-footer pt-sm-5 pb-sm-5 pb-3 ">
     <div class="container">
 
       <div class="row">
 
         <!-- Footer 1 Widget -->
         <div class="col-md-6 col-lg-4 footer-item footer-logo d-flex">
-          <a class="align-self-sm-center mb-md-5" href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo-bw.svg" alt="logo" class="logo"></a>
+          <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/dist/logo/logo-bw.svg" alt="logo" class="logo"></a>
         </div>
 
         <!-- Footer 2 Widget -->

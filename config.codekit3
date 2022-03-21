@@ -598,6 +598,29 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/blocks\/lazyblock-text\/block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/lazyblock-text\/block.php",
+      "oF" : 0
+    },
+    "\/blocks\/lazyblock-text\/block.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/lazyblock-text\/block.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dist\/css\/login.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1048,6 +1071,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/functions.php",
+      "oF" : 0
+    },
+    "\/header-fixed-more.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header-fixed-more.php",
       "oF" : 0
     },
     "\/header-fixed.php" : {
@@ -3666,6 +3697,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page-blank-meta.php",
+      "oF" : 0
+    },
+    "\/page-blank-more.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-blank-more.php",
       "oF" : 0
     },
     "\/page-blank-without-container.php" : {

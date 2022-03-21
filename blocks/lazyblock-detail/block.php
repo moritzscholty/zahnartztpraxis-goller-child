@@ -2,7 +2,7 @@
 
 
   <!-- background image -->
-  <div class="detail-image-wrap d-none d-lg-block">
+  <div class="detail-image-wrap d-none d-lg-block mb-5">
     <div class="detail-image" style="background-image: url('<?php echo esc_url( $attributes['detail-image']['url'] ); ?>');"></div>
   </div>
   <div class="svg-divider-wrap d-none d-lg-block">
@@ -46,24 +46,26 @@
              <?php endif; ?>
           </div>
 
-          <div class="detail-resources">
+          <?php if ( $attributes['detail-resources'] ) : ?>
+            <div class="detail-resources">
 
-            <?php if ( $attributes['detail-resources'] ) : ?>
-              <p class="lead mb-0">Weitere</p>
-              <h2 class="mb-5">Informationen</h2>
-            <?php endif; ?>
+              <?php if ( $attributes['detail-resources'] ) : ?>
+                <p class="lead mb-0">Weitere</p>
+                <h2 class="mb-5">Informationen</h2>
+              <?php endif; ?>
 
-            <?php foreach( $attributes['detail-resources'] as $inner ): ?>
-              <div class="detail-resource position-relative ">
-                <h5><?php echo $inner['detail-resource-title']; ?></h5>
-                <p class="mt-4 mb-0"><?php echo $inner['detail-resource-text']; ?></p>
-                <?php if ( $inner['detail-resource-button-text'] ) : ?>
-                  <a class="service-listing-button btn-default position-relative px-4 text-center" href="<?php echo esc_url( $inner['detail-resource-button-link'] ); ?>" target="_blank"><span><?php echo $inner['detail-resource-button-text']; ?></span></a>
-                <?php endif; ?>
-              </div>
-            <?php endforeach; ?>
+              <?php foreach( $attributes['detail-resources'] as $inner ): ?>
+                <div class="detail-resource position-relative ">
+                  <h5><?php echo $inner['detail-resource-title']; ?></h5>
+                  <p class="mt-4 mb-0"><?php echo $inner['detail-resource-text']; ?></p>
+                  <?php if ( $inner['detail-resource-button-text'] ) : ?>
+                    <a class="service-listing-button btn-default position-relative px-4 text-center" href="<?php echo esc_url( $inner['detail-resource-button-link'] ); ?>" target="_blank"><span><?php echo $inner['detail-resource-button-text']; ?></span></a>
+                  <?php endif; ?>
+                </div>
+              <?php endforeach; ?>
 
-          </div>
+            </div>
+          <?php endif; ?>
 
       </div>
     </div>

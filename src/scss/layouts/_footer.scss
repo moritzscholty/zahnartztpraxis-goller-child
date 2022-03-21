@@ -1,9 +1,21 @@
 .footer {
   position: relative;
   background-color: $footergrey;
+  margin-top: auto;
   * {
     font-size: 1rem!important;
     z-index: 3;
+  }
+  .bootscore-footer {
+    @include media-breakpoint-down(sm) {
+      padding-top: 3rem!important;
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top: 5rem!important;
+    }
+    @media screen and (min-width: 1920px) {
+        padding-top: 0!important;
+    }
   }
   .footer-item {
     @include media-breakpoint-down(md) {
@@ -15,7 +27,7 @@
   .footer-about,
   .footer-nav,
   .footer-social {
-    line-height: 1.75;
+    line-height: 2.25;
   }
   .footer-logo {
     img {
@@ -29,7 +41,7 @@
     a {
       padding: 0;
       color: inherit;
-      line-height: 1.75;
+      line-height: 2.25;
       transition: color 0.3s ease-in-out;
       &:hover {
         color: $white;
