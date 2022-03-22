@@ -31,41 +31,45 @@
             </ol>
           </nav>
 
-          <div class="detail-data">
-            <?php if ( $attributes['detail-sub'] ) : ?>
-              <p class="lead mb-0"><?php echo $attributes['detail-sub']; ?></p>
-            <?php endif; ?>
-            <?php if ( $attributes['detail-headline'] ) : ?>
-              <h2 class="mb-5"><?php echo $attributes['detail-headline']; ?></h2>
-            <?php endif; ?>
-            <?php if ( $attributes['detail-text'] ) : ?>
-              <p><?php echo $attributes['detail-text']; ?></p>
-            <?php endif; ?>
-            <?php if ( $attributes['detail-button-text'] ) : ?>
-              <a class="service-listing-button service-listing-button-back btn-default px-4 text-center" href="<?php echo esc_url(home_url()); ?>#service"><span><?php echo $attributes['detail-button-text']; ?></span></a>
-             <?php endif; ?>
-          </div>
-
-          <?php if ( $attributes['detail-resources'] ) : ?>
-            <div class="detail-resources">
-
-              <?php if ( $attributes['detail-resources'] ) : ?>
-                <p class="lead mb-0">Weitere</p>
-                <h2 class="mb-5">Informationen</h2>
+          <div class="detail-content <?php echo $attributes['detail-margin-bottom']; ?>">
+            <div class="detail-data">
+              <?php if ( $attributes['detail-sub'] ) : ?>
+                <p class="lead mb-0"><?php echo $attributes['detail-sub']; ?></p>
               <?php endif; ?>
-
-              <?php foreach( $attributes['detail-resources'] as $inner ): ?>
-                <div class="detail-resource position-relative ">
-                  <h5><?php echo $inner['detail-resource-title']; ?></h5>
-                  <p class="mt-4 mb-0"><?php echo $inner['detail-resource-text']; ?></p>
-                  <?php if ( $inner['detail-resource-button-text'] ) : ?>
-                    <a class="service-listing-button btn-default position-relative px-4 text-center" href="<?php echo esc_url( $inner['detail-resource-button-link'] ); ?>" target="_blank"><span><?php echo $inner['detail-resource-button-text']; ?></span></a>
-                  <?php endif; ?>
-                </div>
-              <?php endforeach; ?>
-
+              <?php if ( $attributes['detail-headline'] ) : ?>
+                <h2 class="mb-5"><?php echo $attributes['detail-headline']; ?></h2>
+              <?php endif; ?>
+              <?php if ( $attributes['detail-text'] ) : ?>
+                <p><?php echo $attributes['detail-text']; ?></p>
+              <?php endif; ?>
+              <?php if ( $attributes['detail-button-text'] ) : ?>
+                <a class="service-listing-button service-listing-button-back btn-default px-4 text-center" href="<?php echo esc_url(home_url()); ?>#service"><span><?php echo $attributes['detail-button-text']; ?></span></a>
+               <?php endif; ?>
             </div>
-          <?php endif; ?>
+
+            <?php if ( $attributes['detail-resources'] ) : ?>
+              <div class="detail-resources">
+
+                <?php if ( $attributes['detail-resources-sub'] ) : ?>
+                  <p class="lead mb-0"><?php echo $attributes['detail-resources-sub']; ?></p>
+                <?php endif; ?>
+                <?php if ( $attributes['detail-resources-headline'] ) : ?>
+                  <h2 class="mb-5"><?php echo $attributes['detail-resources-headline']; ?></h2>
+                <?php endif; ?>
+
+                <?php foreach( $attributes['detail-resources'] as $inner ): ?>
+                  <div class="detail-resource position-relative ">
+                    <h5><?php echo $inner['detail-resource-title']; ?></h5>
+                    <p class="mt-4 mb-0"><?php echo $inner['detail-resource-text']; ?></p>
+                    <?php if ( $inner['detail-resource-button-text'] ) : ?>
+                      <a class="service-listing-button btn-default position-relative px-4 text-center" href="<?php echo esc_url( $inner['detail-resource-button-link'] ); ?>" target="_blank"><span><?php echo $inner['detail-resource-button-text']; ?></span></a>
+                    <?php endif; ?>
+                  </div>
+                <?php endforeach; ?>
+
+              </div>
+            <?php endif; ?>
+          </div>
 
       </div>
     </div>

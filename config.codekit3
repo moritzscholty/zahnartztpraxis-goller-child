@@ -1049,6 +1049,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/favicon.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon.php",
+      "oF" : 0
+    },
     "\/footer-fixed.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1073,14 +1081,6 @@
       "oAP" : "\/functions.php",
       "oF" : 0
     },
-    "\/header-fixed-more.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/header-fixed-more.php",
-      "oF" : 0
-    },
     "\/header-fixed.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1095,6 +1095,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/header-meta.php",
+      "oF" : 0
+    },
+    "\/header-more.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/header-more.php",
       "oF" : 0
     },
     "\/header.php" : {

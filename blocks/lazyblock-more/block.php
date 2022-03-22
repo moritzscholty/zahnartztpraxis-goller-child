@@ -48,9 +48,11 @@
           <?php if ( $attributes['detail-resources'] ) : ?>
             <div class="detail-resources">
 
-              <?php if ( $attributes['detail-resources'] ) : ?>
-                <p class="lead mb-0">Weitere</p>
-                <h2 class="mb-5">Informationen</h2>
+              <?php if ( $attributes['detail-resources-sub'] ) : ?>
+                <p class="lead mb-0"><?php echo $attributes['detail-resources-sub']; ?></p>
+              <?php endif; ?>
+              <?php if ( $attributes['detail-resources-headline'] ) : ?>
+                <h2 class="mb-5"><?php echo $attributes['detail-resources-headline']; ?></h2>
               <?php endif; ?>
 
               <?php foreach( $attributes['detail-resources'] as $inner ): ?>

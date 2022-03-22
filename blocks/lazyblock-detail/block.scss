@@ -6,6 +6,17 @@
   @include media-breakpoint-down(lg) {
     margin-top: 80px;
   }
+  .detail-content {
+    &.mb-small {
+      margin-bottom: 0px!important;
+    }
+    &.mb-medium {
+      margin-bottom: 50px!important;
+    }
+    &.mb-large {
+      margin-bottom: 100px!important;
+    }
+  }
   // breadcrumb
   .breadcrumb-detail-wrap {
     display: inline-block;

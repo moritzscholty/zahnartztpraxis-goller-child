@@ -13856,7 +13856,7 @@ main {
   color: #fff;
 }
 .footer .social-wrap .social-icon:not(:last-child) {
-  margin-right: 0.8rem;
+  margin-right: 1.25rem;
 }
 .footer .social-wrap img {
   max-width: 30px;
@@ -17282,6 +17282,15 @@ input[type=checkbox].CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBod
   .detail {
     margin-top: 80px;
   }
+}
+.detail .detail-content.mb-small {
+  margin-bottom: 0px !important;
+}
+.detail .detail-content.mb-medium {
+  margin-bottom: 50px !important;
+}
+.detail .detail-content.mb-large {
+  margin-bottom: 100px !important;
 }
 .detail .breadcrumb-detail-wrap {
   display: inline-block;

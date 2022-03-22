@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Blank fixed more
+ * Template Name: Blank more
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -9,7 +9,7 @@
  */
 
 
-include('header-fixed-more.php');
+include('header-more.php');
 ?>
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
