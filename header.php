@@ -21,10 +21,9 @@
 
   <!-- Favicon Default -->
   <?php
-  //include('favicon.php');
+  include('favicon.php');
   ?>
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
+
 
   <?php wp_head(); ?>
 </head>

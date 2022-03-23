@@ -75,7 +75,7 @@ add_action('admin_head', 'add_site_favicon');
 
 // activate scrollspy on page by id
 if (file_exists('testing.txt')) {
-  // local dev
+  // local dev (means to create file in root folder)
   function add_scrollspy() {
       if( is_page('164') ) { // page id
         echo "<script>
@@ -108,10 +108,19 @@ if (file_exists('testing.txt')) {
 
 // bundle relevant plugins in theme_dir
 
-define( 'MY_BPL_PATH', get_stylesheet_directory() . '/inc/bpl/' );
-define( 'MY_BPL_URL', get_stylesheet_directory_uri() . '/inc/bpl/' );
 
-require_once( MY_BPL_PATH . 'index.php' );
+// adjustments for footer when admin-bar is showing
+add_action('wp_head', 'adjust_sticky_footer');
+function adjust_sticky_footer() {
+    if(is_admin_bar_showing()) { ?>
+        <style type="text/css">
+            main {
+            	min-height: calc(100vh - 290px);
+            }
+        </style>
+    <?php
+    }
+}
 
 // acf optionspage
 
