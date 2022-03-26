@@ -10,7 +10,6 @@ function bootscore_child_enqueue_styles() {
 
   // child theme js
   wp_enqueue_script('main', get_theme_file_uri() . '/dist/js/main.min.js', array('jquery'), '1.0', true );
-  wp_enqueue_script('bootscore-script', get_theme_file_uri() . '/dist/js/custom.min.js', array('jquery'), '1.0', true );
 }
 
 // login form styles
@@ -156,3 +155,5 @@ if( function_exists('acf_add_options_page') ) {
 	));
 
 }
+
+?>
