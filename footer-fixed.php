@@ -41,7 +41,7 @@
 </div>
 
 <!-- sidebar -->
-<aside class="sidebar">
+<aside class="sidebar d-none d-sm-block">
 
   <a class="sidebar-link" href="tel:<?php the_field("sidebar-phone","option");?>">
     <div class="sidebar-btn sidebar-phone">

@@ -41,7 +41,7 @@
               <p><?php echo $attributes['detail-text']; ?></p>
             <?php endif; ?>
             <?php if ( $attributes['detail-button-text'] ) : ?>
-              <a class="service-listing-button service-listing-button-back btn-default px-4 text-center" href="<?php echo esc_url(home_url()); ?>#service"><span><?php echo $attributes['detail-button-text']; ?></span></a>
+              <a class="service-listing-button service-listing-button-back btn-default px-4 text-center" href="<?php echo esc_url(home_url()); ?>#intro"><span><?php echo $attributes['detail-button-text']; ?></span></a>
              <?php endif; ?>
           </div>
 

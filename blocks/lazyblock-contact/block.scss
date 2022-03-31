@@ -15,6 +15,10 @@
     margin-left: 80px;
     line-height: 2;
     transition: color 0.3s ease-in-out;
+    @include media-breakpoint-down(md) {
+      line-height: 1.75;
+      font-size: 1rem;
+    }
     a {
       text-decoration: none;
       border-bottom: 0;

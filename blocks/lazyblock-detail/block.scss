@@ -149,7 +149,7 @@
 }
 .detail-divider {
   position: absolute;
-  bottom: 0;
+  bottom: -1px; // for ios 
   left: 0;
   width: 100%;
   overflow: hidden;

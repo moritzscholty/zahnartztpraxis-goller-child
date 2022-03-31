@@ -1,4 +1,11 @@
 .text-dce {
   margin-top: 100px;
   margin-bottom: 100px;
+  .btn-default {
+    margin-top: 1rem;
+    &.service-listing-button-back {
+      background-color: $darkgrey!important;
+      margin-top: 1rem;
+    }
+  }
 }
