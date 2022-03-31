@@ -1831,6 +1831,999 @@
       "oAP" : "\/inc\/bs-preloader-main\/update\/vendor\/PucReadmeParser.php",
       "oF" : 0
     },
+    "\/inc\/cookie-law-info\/admin\/class-cookie-law-info-admin.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/class-cookie-law-info-admin.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/css\/cookie-law-info-admin-1.6.7.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/css\/cookie-law-info-admin-1.6.7-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/css\/cookie-law-info-admin.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/css\/cookie-law-info-admin-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/images\/add.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/images\/add.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/images\/documentation.png" : {
+      "ft" : 32768,
+      "iS" : 1230,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/images\/documentation.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/admin\/images\/support.png" : {
+      "ft" : 32768,
+      "iS" : 4748,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/images\/support.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/admin\/images\/wt-cli-info.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/images\/wt-cli-info.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/index.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/js\/cookie-law-info-admin-1.6.7.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/js\/cookie-law-info-admin-1.6.7-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/js\/cookie-law-info-admin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/js\/cookie-law-info-admin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/js\/cookie-law-info-ckyes.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/js\/cookie-law-info-ckyes-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/assets\/js\/cookie-law-info-ccpa-admin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/assets\/js\/cookie-law-info-ccpa-admin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/assets\/js\/cookie-law-info-ccpa.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/assets\/js\/cookie-law-info-ccpa-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/ccpa.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/ccpa.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/views\/ccpa_settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/ccpa\/views\/ccpa_settings.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/assets\/css\/editor-style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/assets\/css\/editor-style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/assets\/js\/cli-policy-generator-admin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/assets\/js\/cli-policy-generator-admin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/classes\/class-policy-generator-ajax.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/classes\/class-policy-generator-ajax.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/classes\/class-preview-page.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/classes\/class-preview-page.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/cli-policy-generator.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/cli-policy-generator.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block1.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block1.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block2.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block2.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block3.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block3.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block4.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block4.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block5.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.block5.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.policy-generator.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/data\/data.policy-generator.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/views\/policy-generator.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cli-policy-generator\/views\/policy-generator.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/assets\/images\/loading.gif" : {
+      "ft" : 4194304,
+      "iS" : 35464,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/assets\/images\/loading.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/assets\/images\/screenshot-1.png" : {
+      "ft" : 32768,
+      "iS" : 62015,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/assets\/images\/screenshot-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/assets\/js\/cookie-scaner.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/assets\/js\/cookie-scaner-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/classes\/class-cookie-law-info-cookie-scanner-ajax.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/classes\/class-cookie-law-info-cookie-scanner-ajax.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/classes\/class-cookie-law-info-cookie-scanner-api.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/classes\/class-cookie-law-info-cookie-scanner-api.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/cookie-scaner.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/cookie-scaner.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/views\/scan-results.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/views\/scan-results.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/views\/settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookie-scaner\/views\/settings.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookies\/cookies.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookies\/cookies.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookies\/images\/cli_icon.png" : {
+      "ft" : 32768,
+      "iS" : 440,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookies\/images\/cli_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookies\/views\/necessary-settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookies\/views\/necessary-settings.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/cookies\/views\/non-necessary-settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/cookies\/views\/non-necessary-settings.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/modules\/uninstall-feedback\/uninstall-feedback.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/modules\/uninstall-feedback\/uninstall-feedback.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/partials\/cookie-law-info-admin_settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/partials\/cookie-law-info-admin_settings.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/partials\/cookie-law-info-privacy_overview.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/partials\/cookie-law-info-privacy_overview.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-advanced.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-advanced.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-buttons.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-buttons.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-general.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-general.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-help.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-help.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-messagebar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-messagebar.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-save-button.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-save-button.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/admin-settings-upgrade-pro.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/admin-settings-upgrade-pro.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/admin\/views\/goto-pro-v2.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/admin\/views\/goto-pro-v2.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/cookie-law-info.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/cookie-law-info.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/add.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/add.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/bg.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/bg.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/blue-crown.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/blue-crown.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/collapse.png" : {
+      "ft" : 32768,
+      "iS" : 712,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/collapse.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/cross.png" : {
+      "ft" : 32768,
+      "iS" : 584,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/cross.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/cross.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/cross.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/crown.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/crown.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/expand.png" : {
+      "ft" : 32768,
+      "iS" : 680,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/expand.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 1352,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/icon-256x256.png" : {
+      "ft" : 32768,
+      "iS" : 11498,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/icon-256x256.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/list-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/list-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/logo-cookieyes.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/logo-cookieyes.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/money-back-badge.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/money-back-badge.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/money-back.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/money-back.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/overlay.png" : {
+      "ft" : 32768,
+      "iS" : 135,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/overlay.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/support.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/support.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/td_back.gif" : {
+      "ft" : 4194304,
+      "iS" : 141,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/td_back.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/tick.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/tick.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/images\/webtoffee-logo_small.png" : {
+      "ft" : 32768,
+      "iS" : 4140,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/images\/webtoffee-logo_small.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/images\/white-crown.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/images\/white-crown.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-activator.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-activator.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-cookieyes.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-cookieyes.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-deactivator.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-deactivator.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-i18n.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-i18n.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-languages.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-languages.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-loader.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-loader.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-review-request.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info-review-request.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/class-cookie-law-info.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/class-cookie-law-info.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/includes\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/includes\/index.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/index.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/languages\/cookie-law-info.pot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/languages\/cookie-law-info.pot",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/license.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/license.txt",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/class-cookie-law-info-public.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/class-cookie-law-info-public.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/css\/cookie-law-info-gdpr.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/css\/cookie-law-info-gdpr-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/css\/cookie-law-info-public.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/css\/cookie-law-info-public-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/css\/cookie-law-info-table.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/css\/cookie-law-info-table-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/images\/cli_icon.png" : {
+      "ft" : 32768,
+      "iS" : 440,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/images\/cli_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/inc\/cookie-law-info\/public\/images\/logo-cookieyes.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/inc\/cookie-law-info\/public\/images\/logo-cookieyes.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/index.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/js\/cookie-law-info-public.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/js\/cookie-law-info-public-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/assets\/js\/script-blocker.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/assets\/js\/script-blocker-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/facebook-for-wordpress.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/facebook-for-wordpress.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/google-analytics-for-wordpress.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/google-analytics-for-wordpress.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/instagram-feed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/instagram-feed.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/twitter-feed.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/integrations\/twitter-feed.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/script-blocker.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/script-blocker.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/views\/settings.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/script-blocker\/views\/settings.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/modules\/shortcode\/shortcode.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/modules\/shortcode\/shortcode.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/views\/cookie-law-info_bar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/views\/cookie-law-info_bar.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/public\/views\/cookie-law-info_popup_content.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/public\/views\/cookie-law-info_popup_content.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/readme.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/readme.txt",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/third-party\/class-cookie-law-info-third-party.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/third-party\/class-cookie-law-info-third-party.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/third-party\/scripts\/pixelyoursite\/pixelyoursite.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/third-party\/scripts\/pixelyoursite\/pixelyoursite.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/uninstall.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/uninstall.php",
+      "oF" : 0
+    },
+    "\/inc\/cookie-law-info\/wpml-config.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/cookie-law-info\/wpml-config.xml",
+      "oF" : 0
+    },
     "\/lib\/bootscore\/_alerts.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -3352,16 +4345,35 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/lib\/isotope\/imagesloaded.js" : {
+    "\/lib\/imagesload\/imagesload.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 1,
-      "oAP" : "\/lib\/isotope\/imagesloaded-min.js",
+      "oAP" : "\/lib\/imagesload\/imagesload-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/lib\/imagesload\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/lib\/imagesload\/README.html",
+      "oF" : 1,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/lib\/isotope\/isotope.js" : {
       "bF" : 0,
@@ -3373,14 +4385,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/lib\/isotope\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/lib\/isotope\/README.html",
-      "oF" : 0
     },
     "\/lib\/isotope\/README.md" : {
       "cB" : 0,
