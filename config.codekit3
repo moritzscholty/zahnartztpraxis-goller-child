@@ -165,9 +165,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/blocks\/lazyblock-contact\/block.php",
-      "oF" : 0
+      "oF" : 1
     },
     "\/blocks\/lazyblock-contact\/block.scss" : {
       "aP" : 0,
@@ -188,9 +188,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/blocks\/lazyblock-custom\/block.php",
-      "oF" : 0
+      "oF" : 1
     },
     "\/blocks\/lazyblock-custom\/block.scss" : {
       "aP" : 0,
@@ -211,9 +211,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/blocks\/lazyblock-detail\/block.php",
-      "oF" : 0
+      "oF" : 1
     },
     "\/blocks\/lazyblock-detail\/block.scss" : {
       "aP" : 0,
@@ -234,9 +234,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/blocks\/lazyblock-gallery\/block.php",
-      "oF" : 0
+      "oF" : 1
     },
     "\/blocks\/lazyblock-gallery\/block.scss" : {
       "aP" : 0,

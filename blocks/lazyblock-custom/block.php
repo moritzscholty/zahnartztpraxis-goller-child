@@ -37,8 +37,44 @@
           <?php echo $attributes['custom-inner']; ?>
         <?php endif; ?>
       </div>
-
     </div>
+
+
+    <!-- custom information -->
+    <?php if ( $attributes['custom-display-information'] ) : ?>
+      <div class="row gx-0 gy-0">
+        <div class="custom-information-container">
+          <?php if ( $attributes['custom-information-headline'] ) : ?>
+            <h5 class="mb-5"><?php echo $attributes['custom-information-headline']; ?></h5>
+          <?php endif; ?>
+
+          <div class="row gx-1 gy-0">
+            <div class="col-md-4">
+              <?php if ( $attributes['custom-information-row-1'] ) : ?>
+                <p class=""><?php echo $attributes['custom-information-row-1']; ?></p>
+              <?php endif; ?>
+            </div>
+            <div class="col">
+              <?php if ( $attributes['custom-information-row-2'] ) : ?>
+                <p class=""><?php echo $attributes['custom-information-row-2']; ?></p>
+              <?php endif; ?>
+            </div>
+            <div class="col">
+              <?php if ( $attributes['custom-information-row-3'] ) : ?>
+                <p class=""><?php echo $attributes['custom-information-row-3']; ?></p>
+              <?php endif; ?>
+            </div>
+            <div class="col">
+              <?php if ( $attributes['custom-information-row-4'] ) : ?>
+                <p class=""><?php echo $attributes['custom-information-row-4']; ?></p>
+              <?php endif; ?>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <?php endif; ?>
+
   </div>
 
 </section>
